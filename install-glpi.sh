@@ -4,7 +4,7 @@ cd /tmp
 
 apt-get install -y apache2 libapache2-mod-php mariadb-server php-mysql
 apt-get install -y php-{mbstring,curl,gd,xml,intl,ldap,apcu,xmlrpc,cas,zip,bz2}
-wget https://github.com/glpi-project/glpi/releases/download/10.0.0/glpi-10.0.2.tgz
+wget https://github.com/glpi-project/glpi/releases/download/10.0.2/glpi-10.0.2.tgz
 
 mysql -uroot -pglpi -e "create database glpi charset utf8mb4 collate utf8mb4_unicode_ci;"
 mysql -uroot -pglpi -e "create user glpi@localhost identified by 'glpi';"
