@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-12 16:40+0100\n"
+"PO-Revision-Date: 2022-07-12 17:40+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -259,7 +259,7 @@ msgstr "%1$s - ID %2$d"
 #: ajax/dropdownConnectNetworkPort.php:140
 #, php-format
 msgid "%1$s - Network outlet %2$s"
-msgstr "%1$s - Tomada de rede %2$s"
+msgstr "%1$s - Ficha de rede %2$s"
 
 #. TRANS: %1$s is device name, %2$s is port name
 #: ajax/dropdownConnectNetworkPort.php:133
@@ -5905,19 +5905,19 @@ msgstr[2] "Contratos"
 
 #: src/Contract.php:1205
 msgid "Contract ended"
-msgstr "Contracto terminado"
+msgstr "Contrato terminado"
 
 #: src/Contract.php:1200
 msgid "Contract entered in notice time"
-msgstr "Contracto entrou em período de denúncia"
+msgstr "Contrato entrou em período de denúncia"
 
 #: src/Contract.php:1280
 msgid "Contract entered in notice time for period"
-msgstr "Contracto entrou no periodo de denuncia"
+msgstr "Contrato entrou no periodo de denuncia"
 
 #: src/NotificationTargetContract.php:141 src/NotificationTargetContract.php:181
 msgid "Contract expired since the"
-msgstr "Contracto terminado desde"
+msgstr "Contrato terminado desde"
 
 #: src/Entity.php:2922 src/Entity.php:2951
 msgid "Contract in ticket entity"
@@ -5925,7 +5925,7 @@ msgstr "Contrato na entidade do ticket"
 
 #: src/Contract.php:1284
 msgid "Contract period ended"
-msgstr "Contracto terminado"
+msgstr "Contrato terminado"
 
 #: src/NotificationTargetContract.php:150
 msgid "Contract reached the end of a period since the"
@@ -5933,7 +5933,7 @@ msgstr "Contrato atingiu fim de periodo desde"
 
 #: templates/pages/management/contract.html.twig
 msgid "Contract renewal period"
-msgstr "Periodicidade do contracto"
+msgstr "Periodicidade do contrato"
 
 #: src/ContractType.php:41
 msgid "Contract type"
@@ -5944,11 +5944,11 @@ msgstr[2] "Tipos de contratos"
 
 #: src/NotificationTargetContract.php:155
 msgid "Contract with notice for the current period since the"
-msgstr "Contracto com aviso para o actual periodo desde"
+msgstr "Contrato com aviso para o actual periodo desde"
 
 #: src/NotificationTargetContract.php:145 src/NotificationTargetContract.php:182
 msgid "Contract with notice since the"
-msgstr "Contracto com aviso desde"
+msgstr "Contrato com aviso desde"
 
 #: src/NotificationTargetContract.php:61
 msgid "Contracts alarm"
@@ -6426,7 +6426,7 @@ msgstr "DD-MM-AAAA"
 #. open.php
 #: src/Toolbox.php:1903
 msgid "DEBUG"
-msgstr "DEBUG"
+msgstr "DEPURAÇÃO"
 
 #: templates/pages/management/certificate.html.twig src/Certificate_Item.php:466 src/Certificate.php:225
 msgid "DNS name"
@@ -6720,11 +6720,11 @@ msgstr "Detecção de erros"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "Debug mode disabled"
-msgstr "Modo de debug desactivado"
+msgstr "Modo de depuração desactivado"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "Debug mode enabled"
-msgstr "Modo de debug activado"
+msgstr "Modo de depuração activado"
 
 #: ajax/switchdebug.php:50
 msgid "Debug mode has been disabled!"
@@ -8442,7 +8442,7 @@ msgstr "Hora de fim do período de execução"
 
 #: src/NotificationTargetContract.php:44
 msgid "End of contract"
-msgstr "Fim do contracto"
+msgstr "Fim do contrato"
 
 #: src/Config.php:592
 msgid "End of fiscal year"
@@ -10768,7 +10768,7 @@ msgstr "Herda configuração da entidade ascendente"
 
 #: templates/pages/management/contract.html.twig src/Contract_Item.php:345 src/Contract_Supplier.php:185
 msgid "Initial contract period"
-msgstr "Duração inicial do contracto"
+msgstr "Duração inicial do contrato"
 
 #: templates/pages/assets/printer.html.twig src/Printer.php:523
 msgid "Initial page counter"
@@ -12189,7 +12189,7 @@ msgstr "Lista de lembretes"
 
 #: front/report.contract.list.php:48
 msgid "List of the hardware under contract"
-msgstr "Lista de hardware sobre contracto"
+msgstr "Lista de hardware sobre contrato"
 
 #: src/ReminderTranslation.php:164 src/DropdownTranslation.php:416 src/KnowbaseItemTranslation.php:228
 msgid "List of translations"
@@ -13588,7 +13588,7 @@ msgstr "Relatório de rede por localização: %s"
 #: front/report.socket.list.php:48
 #, php-format
 msgid "Network report by outlet: %s"
-msgstr "Relatório de rede por tomada: %s"
+msgstr "Relatório de rede por ficha: %s"
 
 #: src/NetworkPortFiberchannel.php:157 src/NetworkPortEthernet.php:158 src/NetworkPortInstantiation.php:676
 #: src/Socket.php:833 src/Socket.php:866
@@ -15846,9 +15846,9 @@ msgstr "Selecione uma versão!"
 #: src/Plug.php:41
 msgid "Plug"
 msgid_plural "Plugs"
-msgstr[0] "Tomada"
-msgstr[1] "Tomadas"
-msgstr[2] "Tomadas"
+msgstr[0] "Ficha"
+msgstr[1] "Fichas"
+msgstr[2] "Fichas"
 
 #: src/Html.php:1454 src/Search.php:7937 src/Event.php:178 src/Marketplace/NotificationTargetController.php:108
 #: src/Plugin.php:123
@@ -18609,7 +18609,7 @@ msgstr "O serviço está desactivado para manutenção. O mesmo estará disponiv
 #: templates/components/itilobject/fields_panel.html.twig src/SLM.php:58
 msgid "Service level"
 msgid_plural "Service levels"
-msgstr[0] "Níveis de serviço"
+msgstr[0] "Nível de serviço"
 msgstr[1] "Níveis de serviço"
 msgstr[2] "Níveis de serviço"
 
@@ -18692,7 +18692,7 @@ msgstr "Partilhar"
 
 #: src/Dashboard/Grid.php:290 js/dashboard.js:172
 msgid "Share or embed this dashboard"
-msgstr "Partilhe ou incorpore este painel"
+msgstr "Partilhar este painel"
 
 #: src/Infocom.php:786
 msgctxt "button"
@@ -20681,7 +20681,7 @@ msgstr "Hoje"
 
 #: src/Dashboard/Grid.php:292
 msgid "Toggle auto-refresh"
-msgstr "Activar auto actualização"
+msgstr "Auto-actualização"
 
 #: templates/components/search/controls.html.twig
 msgid "Toggle browse"
@@ -20693,7 +20693,7 @@ msgstr "Colapso de alternância"
 
 #: src/Dashboard/Grid.php:296
 msgid "Toggle edit mode"
-msgstr "Activar modo edição"
+msgstr "Modo de edição"
 
 #: src/Dashboard/Grid.php:1441
 msgid "Toggle edit mode to edit content"
@@ -20705,7 +20705,7 @@ msgstr "Activar filtros"
 
 #: templates/components/photoswipe.html.twig src/Dashboard/Grid.php:294 src/RichText/RichText.php:376
 msgid "Toggle fullscreen"
-msgstr "Activar ecrã completo"
+msgstr "Ecrã inteiro"
 
 #: src/Dashboard/Grid.php:293
 msgid "Toggle night mode"
@@ -23111,7 +23111,7 @@ msgstr "Você deve selecionar uma versão SNMP"
 #: src/Marketplace/View.php:777
 #, php-format
 msgid "You need a superior GLPI-Network offer to access to this plugin (%s)"
-msgstr "Você precisa de subscrição paga à GLPI-Network para aceder a este plugin (%s)"
+msgstr "Você precisa de subscrição paga à GLPI Network para aceder a este plugin (%s)"
 
 #: src/Marketplace/View.php:899
 #, php-format
@@ -23134,7 +23134,7 @@ msgstr ""
 "pré-configurados?\n"
 "\n"
 "Fornecemos o espaço %s para você.\n"
-"O GLPI-Network é um serviço comercial que inclui uma assinatura para suporte de nível 3, garantindo a correção de "
+"O GLPI Network é um serviço comercial que inclui uma assinatura para suporte de nível 3, garantindo a correção de "
 "bugs encontrados com um tempo de compromisso.\n"
 "\n"
 "Neste mesmo espaço você poderá <b>contactar um parceiro oficial</b> para ajudá-lo com sua integração GLPI."
@@ -23719,7 +23719,7 @@ msgstr "execute script como utilizador apache"
 
 #: src/Contract.php:1339
 msgid "send contract alert failed"
-msgstr "falhou o envio do alerta de contracto"
+msgstr "falhou o envio do alerta de contrato"
 
 #: src/Infocom.php:599
 msgid "send infocom alert failed"
