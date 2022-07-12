@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-12 17:58+0100\n"
+"PO-Revision-Date: 2022-07-12 18:22+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -2204,8 +2204,8 @@ msgstr "Número da conta (IBAN)"
 msgid "Action"
 msgid_plural "Actions"
 msgstr[0] "Ação"
-msgstr[1] "Acções"
-msgstr[2] "Acções"
+msgstr[1] "Ações"
+msgstr[2] "Ações"
 
 #: src/CronTask.php:207 src/CronTask.php:328
 msgid "Action aborted"
@@ -2237,11 +2237,11 @@ msgstr "Ação quando um utilizador é restaurado no directório LDAP"
 
 #: templates/components/form/single-action.html.twig src/User.php:2224 src/Plugin.php:2343
 msgid "Actions"
-msgstr "Acções"
+msgstr "Ações"
 
 #: src/RuleCollection.php:1369
 msgid "Actions refused"
-msgstr "Acções recusadas"
+msgstr "Ações recusadas"
 
 #: templates/generic_show_form.html.twig src/AuthLDAP.php:423 src/AuthLDAP.php:1270 src/CommonITILRecurrent.php:162
 #: src/CommonITILRecurrent.php:286 src/AuthMail.php:138 src/AuthMail.php:190 src/TaskCategory.php:53
@@ -4001,8 +4001,8 @@ msgstr "Automatico"
 msgid "Automatic action"
 msgid_plural "Automatic actions"
 msgstr[0] "Ação automática"
-msgstr[1] "Acções automáticas"
-msgstr[2] "Acções automáticas"
+msgstr[1] "Ações automáticas"
+msgstr[2] "Ações automáticas"
 
 #: src/NotificationTargetCrontask.php:97
 msgid "Automatic actions list"
@@ -4010,11 +4010,11 @@ msgstr "Lista de ações automáticas"
 
 #: src/OlaLevel_Ticket.php:150
 msgid "Automatic actions of OLA"
-msgstr "Acções automáticas de OLA"
+msgstr "Ações automáticas de OLA"
 
 #: src/SlaLevel_Ticket.php:145
 msgid "Automatic actions of SLA"
-msgstr "Acções automática de SLA"
+msgstr "Ações automática de SLA"
 
 #: src/Entity.php:1220
 msgid "Automatic assignment of tickets"
@@ -12728,7 +12728,7 @@ msgstr "Loja"
 
 #: src/Html.php:2736
 msgid "Massive actions"
-msgstr "Acções massivas"
+msgstr "Ações massivas"
 
 #: src/WifiNetwork.php:73
 msgid "Master"
