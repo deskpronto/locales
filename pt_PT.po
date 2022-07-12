@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-12 17:40+0100\n"
+"PO-Revision-Date: 2022-07-12 17:58+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -1822,7 +1822,7 @@ msgstr "(%1$d problemas de autorizações, %2$d falhadas)"
 #: front/massiveaction.php:78
 #, php-format
 msgid "(%1$d items required no action)"
-msgstr "(%1$d items não requerem acção)"
+msgstr "(%1$d items não requerem ação)"
 
 #: src/Features/DCBreadcrumb.php:174 src/Features/DCBreadcrumb.php:200
 #, php-format
@@ -2203,37 +2203,37 @@ msgstr "Número da conta (IBAN)"
 #: src/Inventory/Conf.php:810 ajax/massiveaction.php:79
 msgid "Action"
 msgid_plural "Actions"
-msgstr[0] "Acção"
+msgstr[0] "Ação"
 msgstr[1] "Acções"
 msgstr[2] "Acções"
 
 #: src/CronTask.php:207 src/CronTask.php:328
 msgid "Action aborted"
-msgstr "Acção recusada"
+msgstr "Ação recusada"
 
 #: src/CronTask.php:334
 msgid "Action completed, fully processed"
-msgstr "Acção completa, totalmente processada"
+msgstr "Ação completa, totalmente processada"
 
 #: src/CronTask.php:337
 msgid "Action completed, no processing required"
-msgstr "Acção completa, não é necessário processamento"
+msgstr "Ação completa, não é necessário processamento"
 
 #: src/CronTask.php:331
 msgid "Action completed, partially processed"
-msgstr "Acção completa, parcialmente processada"
+msgstr "Ação completa, parcialmente processada"
 
 #: src/Rule.php:1170 src/RuleCollection.php:1375
 msgid "Action type"
-msgstr "Tipo de acção"
+msgstr "Tipo de ação"
 
 #: src/Config.php:754
 msgid "Action when a user is deleted from the LDAP directory"
-msgstr "Acção quando um utilizador é removido do directório LDAP"
+msgstr "Ação quando um utilizador é removido do directório LDAP"
 
 #: src/Config.php:756
 msgid "Action when a user is restored in the LDAP directory"
-msgstr "Acção quando um utilizador é restaurado no directório LDAP"
+msgstr "Ação quando um utilizador é restaurado no directório LDAP"
 
 #: templates/components/form/single-action.html.twig src/User.php:2224 src/Plugin.php:2343
 msgid "Actions"
@@ -2469,7 +2469,7 @@ msgstr "Adicione nome de rede"
 
 #: src/Rule.php:1134
 msgid "Add a new action"
-msgstr "Adicionar uma nova acção"
+msgstr "Adicionar uma nova ação"
 
 #: src/Item_Devices.php:718
 msgid "Add a new component"
@@ -4000,13 +4000,13 @@ msgstr "Automatico"
 #: src/CronTask.php:84
 msgid "Automatic action"
 msgid_plural "Automatic actions"
-msgstr[0] "Acção automática"
+msgstr[0] "Ação automática"
 msgstr[1] "Acções automáticas"
 msgstr[2] "Acções automáticas"
 
 #: src/NotificationTargetCrontask.php:97
 msgid "Automatic actions list"
-msgstr "Lista de acções automáticas"
+msgstr "Lista de ações automáticas"
 
 #: src/OlaLevel_Ticket.php:150
 msgid "Automatic actions of OLA"
@@ -5424,7 +5424,7 @@ msgstr "Fechar painel"
 
 #: src/Entity.php:2975
 msgid "Close ticket action is disabled."
-msgstr "A acção de fechar ticket está desactivada."
+msgstr "A ação de fechar ticket está desactivada."
 
 #: src/Calendar_Holiday.php:203 src/Holiday.php:48
 msgid "Close time"
@@ -6872,7 +6872,7 @@ msgstr "Perfil"
 
 #: src/Report.php:74
 msgid "Default report"
-msgstr "Relatório"
+msgstr "Relatório por defeito"
 
 #: templates/layout/parts/saved_searches_list.html.twig
 msgid "Default search"
@@ -7246,9 +7246,9 @@ msgstr[2] "Modelos de caixa de dispositivos"
 #: src/DeviceControlModel.php:44
 msgid "Device control model"
 msgid_plural "Device control models"
-msgstr[0] "Modelo de controle de dispositivo"
-msgstr[1] "Modelos de controle de dispositivos"
-msgstr[2] "Modelos de controle de dispositivos"
+msgstr[0] "Modelo de controlo de dispositivo"
+msgstr[1] "Modelos de controlo de dispositivos"
+msgstr[2] "Modelos de controlo de dispositivos"
 
 #: src/DeviceDriveModel.php:44
 msgid "Device drive model"
@@ -7281,9 +7281,9 @@ msgstr[2] "Modelos de placas gráficas de dispositivo"
 #: src/DeviceHardDriveModel.php:44
 msgid "Device hard drive model"
 msgid_plural "Device hard drive models"
-msgstr[0] "Modelo de disco rígido do dispositivo"
-msgstr[1] "Modelos de disco rígido do dispositivo"
-msgstr[2] "Modelos de disco rígido do dispositivo"
+msgstr[0] "Modelo de disco duro do dispositivo"
+msgstr[1] "Modelos de disco duro do dispositivo"
+msgstr[2] "Modelos de disco duro do dispositivo"
 
 #: templates/pages/admin/inventory/agent.html.twig src/Agent.php:117 src/Agent.php:239
 msgid "Device id"
@@ -7597,7 +7597,7 @@ msgstr "Mostrar dropdown da fonte na página de login"
 
 #: src/Config.php:1221
 msgid "Display the complete name in tree dropdowns"
-msgstr "Mostrar o nome completo nos menus de selecção em modo de árvore"
+msgstr "Mostrar o nome completo nos menus de seleção em modo de árvore"
 
 #: src/Console/Application.php:156
 msgid "Display this application version"
@@ -7842,7 +7842,7 @@ msgstr "Domínios expirados"
 
 #: src/Config.php:429
 msgid "Don't show search engine in dropdowns if the number of items is less than"
-msgstr "Não mostra motor de pesquisa nos Menus de selecção se o número de itens é menor que"
+msgstr "Não mostra motor de pesquisa nos Menus de seleção se o número de itens é menor que"
 
 #: templates/components/itilobject/timeline/form_task.html.twig
 #: templates/components/itilobject/timeline/timeline.html.twig src/Planning.php:245 src/Planning.php:263
@@ -7919,9 +7919,9 @@ msgstr[2] "Unidades"
 #: src/Event.php:161 src/Profile.php:2442 src/CommonDropdown.php:70 front/stat.location.php:93
 msgid "Dropdown"
 msgid_plural "Dropdowns"
-msgstr[0] "Menu de selecção"
-msgstr[1] "Menus de selecção"
-msgstr[2] "Menus de selecção"
+msgstr[0] "Menu de seleção"
+msgstr[1] "Menus de seleção"
+msgstr[2] "Menus de seleção"
 
 #: templates/pages/setup/dropdowns_list.html.twig
 msgid "Dropdown with entity management"
@@ -7929,7 +7929,7 @@ msgstr "Lista suspensa com gestão de entidades"
 
 #: src/Profile.php:1839 src/Profile.php:1851 src/Profile.php:2662
 msgid "Dropdowns dictionary"
-msgstr "Dicionário dos menus de selecção"
+msgstr "Dicionário dos menus de seleção"
 
 #: src/Inventory/Asset/Cartridge.php:57
 msgid "Drum"
@@ -8512,7 +8512,7 @@ msgstr "Entidade baseada no perfil de utilizador"
 
 #: src/Profile.php:1931
 msgid "Entity dropdowns"
-msgstr "Menus de selecção de entidades"
+msgstr "Menus de seleção de entidades"
 
 #. TRANS: software in plural
 #: src/Entity.php:1345 src/Entity.php:1848
@@ -8621,7 +8621,7 @@ msgstr "Erro ao colocar e-mail em fila de espera"
 
 #: src/CommonGLPI.php:1427
 msgid "Error on executing the action"
-msgstr "Erro executando a acção"
+msgstr "Erro executando a ação"
 
 #. TRANS: %s is the store path
 #: src/Dropdown.php:855
@@ -8648,7 +8648,7 @@ msgstr "Erro foi : %s"
 
 #: src/Toolbox.php:2426
 msgid "Error when parsing HTTP_REFERER. Reload previous page before doing action again."
-msgstr "Error when parsing HTTP_REFERER. Refresque a página anterior antes de repetir a acção."
+msgstr "Error when parsing HTTP_REFERER. Refresque a página anterior antes de repetir a ação."
 
 #: src/Console/Ldap/SynchronizeUsersCommand.php:305
 #, php-format
@@ -8681,7 +8681,7 @@ msgstr[2] "Níveis de escalonamento"
 
 #: src/OLA.php:65
 msgid "Escalations defined in the OLA will be triggered under this new date."
-msgstr "A acção de escalar definida no OLA será desencadeada sob esta nova data."
+msgstr "A ação de escalar definida no OLA será desencadeada sob esta nova data."
 
 #: src/SLA.php:65
 msgid "Escalations defined in the SLA will be triggered under this new date."
@@ -9443,12 +9443,12 @@ msgstr ""
 #: src/Console/Ldap/SynchronizeUsersCommand.php:124
 #, php-format
 msgid "Force strategy used for deleted users (current configured action: \"%s\")"
-msgstr "Forçar estratégia usada para utilizadores eliminados (acção configurada atual: \"%s\")"
+msgstr "Forçar estratégia usada para utilizadores eliminados (ação configurada atual: \"%s\")"
 
 #: src/Console/Ldap/SynchronizeUsersCommand.php:147
 #, php-format
 msgid "Force strategy used for restored users (current configured action: \"%s\")"
-msgstr "Estratégia de força usada para utilizadores restaurados (acção configurada atual: \"%s\")"
+msgstr "Estratégia de força usada para utilizadores restaurados (ação configurada atual: \"%s\")"
 
 #: src/Auth.php:1464 src/User.php:3333
 msgid "Force synchronization"
@@ -9734,9 +9734,9 @@ msgstr "Visualização global"
 #: src/Profile.php:1928
 msgid "Global dropdown"
 msgid_plural "Global dropdowns"
-msgstr[0] "Menu de selecção global"
-msgstr[1] "Menus de selecção globais"
-msgstr[2] "Menus de selecção globais"
+msgstr[0] "Menu de seleção global"
+msgstr[1] "Menus de seleção globais"
+msgstr[2] "Menus de seleção globais"
 
 #: src/Peripheral.php:380 src/Dropdown.php:2313 src/Dropdown.php:2338 src/Dropdown.php:2350 src/Dropdown.php:2352
 #: src/Dropdown.php:2421 src/Phone.php:468 src/Monitor.php:459 src/Printer.php:640
@@ -9906,17 +9906,17 @@ msgstr "Lidar com a política de expiração de palavras-passe dos utilizadores"
 #: src/DeviceHardDrive.php:43
 msgid "Hard drive"
 msgid_plural "Hard drives"
-msgstr[0] "Disco rígido"
-msgstr[1] "Discos rígidos"
-msgstr[2] "Discos rígidos"
+msgstr[0] "Disco duro"
+msgstr[1] "Discos duros"
+msgstr[2] "Discos duros"
 
 #: src/DeviceHardDrive.php:265
 msgid "Hard drive size"
-msgstr "Tamanho disco rígido"
+msgstr "Tamanho disco duro"
 
 #: src/DeviceHardDrive.php:248
 msgid "Hard drive type"
-msgstr "Tipo de disco rígido"
+msgstr "Tipo de disco duro"
 
 #: src/Report.php:85
 msgid "Hardware financial and administrative information"
@@ -9972,7 +9972,7 @@ msgstr "Ajuda"
 
 #: front/dashboard_helpdesk.php:52
 msgid "Helpdesk Dashboard"
-msgstr "Painel de Suporte Técnico"
+msgstr "Painel de suporte"
 
 #: src/Group.php:1055
 msgid "Helpdesk group"
@@ -9980,7 +9980,7 @@ msgstr "Grupo de suporte"
 
 #: templates/anonymous_helpdesk.html.twig
 msgid "Helpdesk reporting form"
-msgstr "Formulário de reporte ao Helpdesk"
+msgstr "Formulário de suporte"
 
 #: src/User.php:6220 src/User.php:6245
 msgid "Helpdesk user"
@@ -10308,7 +10308,7 @@ msgstr "Se o item representa um marco ou não"
 
 #: src/CommonDropdown.php:594
 msgid "If you confirm the deletion, all uses of this dropdown will be blanked."
-msgstr "Se confirmar a eliminação, todas as funcionalidades deste menu de selecção ficarão vazias."
+msgstr "Se confirmar a eliminação, todas as funcionalidades deste menu de seleção ficarão vazias."
 
 #: src/ITILFollowup.php:503
 msgid "If you reject the solution, you must specify a reason"
@@ -10888,7 +10888,7 @@ msgstr "Tipo de instanciação"
 
 #: src/NotificationTargetFieldUnicity.php:82
 msgid "Intended action"
-msgstr "Acção intencionada"
+msgstr "Ação intencionada"
 
 #: src/InterfaceType.php:71 src/DeviceGraphicCard.php:67 src/DeviceGraphicCard.php:110 src/DeviceControl.php:59
 #: src/DeviceControl.php:97 src/DeviceDrive.php:61 src/DeviceDrive.php:97 src/DeviceNetworkCard.php:143
@@ -10899,9 +10899,9 @@ msgstr "Interface"
 #: src/InterfaceType.php:44
 msgid "Interface type (Hard drive...)"
 msgid_plural "Interface types (Hard drive...)"
-msgstr[0] "Tipo de interface (Disco rígido...)"
-msgstr[1] "Tipos de interface (Disco rígido...)"
-msgstr[2] "Tipos de interface (Disco rígido...)"
+msgstr[0] "Tipo de interface (Disco duro...)"
+msgstr[1] "Tipos de interface (Disco duro...)"
+msgstr[2] "Tipos de interface (Disco duro...)"
 
 #: src/CronTask.php:997
 msgid "Internal"
@@ -12404,7 +12404,7 @@ msgstr "Sair"
 
 #: src/Config.php:2147
 msgid "Logs in files (SQL, email, automatic action...)"
-msgstr "Registo em ficheiros (SQL, e-mail, acções automáticas...)"
+msgstr "Registo em ficheiros (SQL, e-mail, ações automáticas...)"
 
 #: src/PurgeLogs.php:42 src/Config.php:2621
 msgid "Logs purge"
@@ -12745,7 +12745,7 @@ msgstr "Custo de material"
 
 #: src/Config.php:1047
 msgid "Matrix of calculus for priority"
-msgstr "Matriz de calculo para prioridade"
+msgstr "Matriz de cálculo para prioridade"
 
 #: src/Inventory/Asset/Cartridge.php:150
 msgid "Matte"
@@ -12789,7 +12789,7 @@ msgstr "Contagem máxima"
 
 #: src/Config.php:2138
 msgid "Maximal number of automatic actions (run by CLI)"
-msgstr "Número máximo de acções automáticas (executadas pelo CLI)"
+msgstr "Número máximo de ações automáticas (executadas pelo CLI)"
 
 #: src/CronTask.php:1255
 msgid "Maximal time"
@@ -12910,7 +12910,7 @@ msgstr "Fundir"
 
 #: src/Ticket.php:2624
 msgid "Merge actors"
-msgstr "Fundir atores"
+msgstr "Fundir actores"
 
 #: src/ITILTemplate.php:522 src/CommonDropdown.php:808
 msgid "Merge and assign to current entity"
@@ -13225,7 +13225,7 @@ msgstr[2] "Tipos de ecrã"
 
 #: src/NotificationTargetCrontask.php:43 src/NotificationTargetCrontask.php:83 src/CronTask.php:2078
 msgid "Monitoring of automatic actions"
-msgstr "Monitorizar acções automáticas"
+msgstr "Monitorizar ações automáticas"
 
 #: src/LevelAgreement.php:256
 msgid "Month"
@@ -13862,7 +13862,7 @@ msgstr "Nenhum evento"
 
 #: src/Toolbox.php:2418
 msgid "No HTTP_REFERER found in request. Reload previous page before doing action again."
-msgstr "HTTP_REFERER não encontrado no pedido. Refresque a página anterior antes de repetir a acção."
+msgstr "HTTP_REFERER não encontrado no pedido. Refresque a página anterior antes de repetir a ação."
 
 #: src/IPAddress.php:306
 msgid "No IP address found"
@@ -13878,11 +13878,11 @@ msgstr "Sem acesso"
 
 #: src/MassiveAction.php:254
 msgid "No action available"
-msgstr "Acção não disponivel"
+msgstr "Ação não disponivel"
 
 #: front/crontask.php:65 front/crontask.php:66
 msgid "No action pending"
-msgstr "Nenhuma acção agendada"
+msgstr "Nenhuma ação agendada"
 
 #: src/Console/Ldap/SynchronizeUsersCommand.php:219
 msgid "No active LDAP server found."
@@ -14314,11 +14314,11 @@ msgstr "Nenhum"
 
 #: src/Toolbox.php:2441
 msgid "None or Invalid host in HTTP_REFERER. Reload previous page before doing action again."
-msgstr "HTTP_REFERER não contém um \"host\" válido. Refresque a página anterior antes de repetir a acção."
+msgstr "HTTP_REFERER não contém um \"host\" válido. Refresque a página anterior antes de repetir a ação."
 
 #: src/Toolbox.php:2455
 msgid "None or Invalid path in HTTP_REFERER. Reload previous page before doing action again."
-msgstr "HTTP_REFERER não contém um \"path\" válido. Refresque a página anterior antes de repetir a acção."
+msgstr "HTTP_REFERER não contém um \"path\" válido. Refresque a página anterior antes de repetir a ação."
 
 #: src/User.php:3127
 msgid "Normal"
@@ -15001,7 +15001,7 @@ msgstr "Operação realizada com sucesso"
 
 #: front/massiveaction.php:68
 msgid "Operation was done but no action was required"
-msgstr "A operação foi feita, mas nenhuma acção foi necessária"
+msgstr "A operação foi feita, mas nenhuma ação foi necessária"
 
 #: src/SavedSearch_Alert.php:158 src/SavedSearch_Alert.php:274
 msgid "Operator"
@@ -15318,7 +15318,7 @@ msgstr "Tamanho da página"
 
 #: src/Config.php:417
 msgid "Page size for dropdown (paging using scroll)"
-msgstr "Tamanho de menu de selecção"
+msgstr "Tamanho de menu de seleção"
 
 #: templates/components/form/flags.html.twig src/Printer.php:483
 msgid "Parallel"
@@ -15547,7 +15547,7 @@ msgstr "Permissões para directórios var do GLPI"
 
 #: src/System/Requirement/DirectoryWriteAccess.php:69
 msgid "Permissions for automatic actions files"
-msgstr "Permissões para ficheiros de acções automáticas"
+msgstr "Permissões para ficheiros de ações automáticas"
 
 #: src/System/Requirement/DirectoryWriteAccess.php:63
 msgid "Permissions for cache files"
@@ -15787,7 +15787,7 @@ msgstr "Planos"
 
 #: src/Config.php:3181
 msgid "Please check the unstable version checkbox."
-msgstr "Verifique a caixa de selecção da versão instável."
+msgstr "Verifique a caixa de seleção da versão instável."
 
 #: templates/pages/admin/ldap.choose_directory.html.twig
 msgid "Please choose LDAP directory to import users and groups from"
@@ -16617,7 +16617,7 @@ msgstr "Remove o histórico"
 
 #: src/Entity.php:3023
 msgid "Purge ticket action is disabled."
-msgstr "A acção de remoção de ticket está desactivada."
+msgstr "A ação de remoção de ticket está desactivada."
 
 #: src/AuthLDAP.php:4019
 msgid "Put in trashbin"
@@ -16712,7 +16712,7 @@ msgstr "Itens do bastidor"
 #, php-format
 msgid "Racks plugin data has to be updated to %s version. It can be done using the --update-plugin option."
 msgstr ""
-"Os dados do plugin Bastidores têm de ser actualizados para a versão %s. Esta acção poderá ser concretizada com a "
+"Os dados do plugin Bastidores têm de ser actualizados para a versão %s. Esta ação poderá ser concretizada com a "
 "opção --update-plugin."
 
 #: src/Console/Migration/RacksPluginToCoreCommand.php:263
@@ -16745,7 +16745,7 @@ msgstr "Ler autenticação"
 
 #: src/Entity.php:3816
 msgid "Read helpdesk parameters"
-msgstr "Ler parametros de helpdesk"
+msgstr "Ler parâmetros de suporte"
 
 #: src/CommonDBTM.php:5280
 msgid "Read notes"
@@ -17788,7 +17788,7 @@ msgstr "Regras aplicadas: %s"
 
 #: src/RuleCollection.php:443
 msgid "Rules are conditionals. Each one can be used on multiple actions."
-msgstr "As regras são condicionais. Cada regra pode ser usada em múltiplas acções."
+msgstr "As regras são condicionais. Cada regra pode ser usada em múltiplas ações."
 
 #: src/Profile.php:1817 src/Profile.php:2634
 msgid "Rules for assigning a category to a software"
@@ -18252,7 +18252,7 @@ msgstr "Configuração de segurança"
 
 #: src/ProjectTask.php:185 src/Project.php:142
 msgid "See (actor)"
-msgstr "Ver (ator)"
+msgstr "Ver (actor)"
 
 #: src/Change.php:688 src/Problem.php:1563
 msgid "See (author)"
@@ -18385,7 +18385,7 @@ msgstr "Seleccione o relatório que pretende gerar"
 
 #: src/MassiveAction.php:666 src/MassiveAction.php:1055
 msgid "Select the type of the item on which applying this action"
-msgstr "Escolha o tipo de item a que será aplicada esta acção"
+msgstr "Escolha o tipo de item a que será aplicada esta ação"
 
 #: src/Lock.php:727
 msgid "Select the type of the item that must be unlock"
@@ -18405,7 +18405,7 @@ msgstr "O problema selecionado não pode ser carregado"
 
 #: src/Html.php:2696
 msgid "Selection too large, massive action disabled."
-msgstr "Seleção muito grande, acção massiva desactivada."
+msgstr "Seleção muito grande, ação massiva desactivada."
 
 #: templates/pages/management/certificate.html.twig src/Certificate.php:148
 msgid "Self-signed"
@@ -18646,7 +18646,7 @@ msgstr "Defina o nome e/ou cor para este grupo"
 
 #: src/Change.php:219 src/Ticket.php:2553 src/Problem.php:434
 msgid "Set notifications for all actors"
-msgstr "Coloque notificações para todos os atores"
+msgstr "Coloque notificações para todos os actores"
 
 #: ajax/private_public.php:75
 msgid "Set personal"
@@ -19852,7 +19852,7 @@ msgstr "Texto a ser exibido durante a manutenção"
 
 #: front/tracking.injector.php:92
 msgid "Thank you for using our automatic helpdesk system."
-msgstr "Obrigado por estar a usar o nosso Sistema de Helpdesk automático."
+msgstr "Obrigado por estar a usar o nosso sistema de suporte automático."
 
 #: src/ReservationItem.php:358
 msgid "That will remove all the reservations in progress."
@@ -19892,11 +19892,11 @@ msgstr "A função de e-mail do PHP é desconhecida ou está desactivada no seu 
 
 #: src/Session.php:1479 src/Session.php:1482
 msgid "The action you have requested is not allowed."
-msgstr "A acção solicitada não é permitida."
+msgstr "A ação solicitada não é permitida."
 
 #: src/Toolbox.php:2464
 msgid "The action you have requested is not allowed. Reload previous page before doing action again."
-msgstr "A acção que solicitou não está disponivel. Volte a actualizar a página anterior antes de repetir a acção."
+msgstr "A ação que solicitou não está disponivel. Volte a actualizar a página anterior antes de repetir a ação."
 
 #: src/SLA.php:64
 msgid "The assignment of a SLA to a ticket causes the recalculation of the date."
@@ -19994,7 +19994,7 @@ msgstr "O ficheiro foi criado em %smas não pode ser apagado."
 
 #: src/NotificationTargetCrontask.php:104
 msgid "The following automatic actions are in error. They require intervention."
-msgstr "As proximas acções automáticas estão com erro. Precisam da sua intervenção."
+msgstr "As proximas ações automáticas estão com erro. Precisam da sua intervenção."
 
 #: templates/install/step8.html.twig
 msgid "The installation is finished"
@@ -20173,7 +20173,7 @@ msgstr "Já existe tradução para este campo nesta língua"
 
 #: src/Entity.php:1630
 msgid "These parameters are used as actions in generic rules for assignment to entities"
-msgstr "Estes parâmetros são usados como acções genéricas na atribuição de entidades"
+msgstr "Estes parâmetros são usados como ações genéricas na atribuição de entidades"
 
 #: src/Transfer.php:4106
 msgid "Think of making a backup before transferring items."
@@ -20212,7 +20212,7 @@ msgstr ""
 
 #: src/User.php:6316
 msgid "This is a special user used for automated actions. "
-msgstr "Este é um utilizador especial usado para acções automatizadas. "
+msgstr "Este é um utilizador especial usado para ações automatizadas. "
 
 #: src/NotificationMailing.php:97
 msgid "This is a test email."
@@ -20907,7 +20907,7 @@ msgstr "Redefinição do cache de tradução bem-sucedida"
 
 #: src/Config.php:398
 msgid "Translation of dropdowns"
-msgstr "Tradução dos Menus de selecção"
+msgstr "Tradução dos Menus de seleção"
 
 #: src/Config.php:406
 msgid "Translation of reminders"
@@ -21587,7 +21587,7 @@ msgstr "Actualizar"
 
 #: src/ProjectTask.php:186
 msgid "Update (actor)"
-msgstr "Actualização (ator)"
+msgstr "Actualização (actor)"
 
 #: src/AutoUpdateSystem.php:40
 msgid "Update Source"
@@ -21653,7 +21653,7 @@ msgstr "Actualizar acompanhamentos (autor)"
 
 #: src/Entity.php:3819
 msgid "Update helpdesk parameters"
-msgstr "Actualizar parametros de helpdesk"
+msgstr "Actualizar parâmetros de suporte"
 
 #: src/User.php:5798
 msgid "Update method for user authentication and synchronization"
@@ -21834,7 +21834,7 @@ msgstr "Urgência"
 
 #: src/RuleTicket.php:113
 msgid "Urgency or impact used in actions, think to add Priority: recompute action if needed."
-msgstr "Urgência ou impacto usado em acções, pense em adicionar Prioridade: recomponha acção, se necessário."
+msgstr "Urgência ou impacto usado em ações, pense em adicionar Prioridade: recomponha ação, se necessário."
 
 #: src/ContentTemplates/TemplateDocumentation.php:134
 msgid "Usage"
@@ -21951,7 +21951,7 @@ msgstr[2] "Usado"
 
 #: src/Cartridge.php:1084
 msgid "Used cartridges"
-msgstr "Cartuchos Usados"
+msgstr "Cartuchos usados"
 
 #: src/Consumable.php:626
 msgid "Used consumables"
@@ -22001,7 +22001,7 @@ msgstr[2] "Categorias de utilizador"
 
 #: src/Config.php:1915
 msgid "User data cache"
-msgstr "Data cache do utilizador"
+msgstr "Cache de dados do utilizador"
 
 #. TRANS: short for : Search result user display
 #: src/DisplayPreference.php:736
@@ -22116,7 +22116,7 @@ msgid ""
 "Valid field descriptor properties are: key (string, mandatory), label (string, mandatory), placeholder (string, "
 "optionnal), quote_value (boolean, optional), is_fqdn (boolean, optional)."
 msgstr ""
-"As propriedades válidas do descritor de campo são: key (string, mandatory), label (string, mandatory), "
+"As propriedades válidas do descritor de campo são: key (string, mandactory), label (string, mandactory), "
 "placeholder (string, optionnal), quote_value (boolean, optional), is_fqdn (boolean, optional)."
 
 #: src/Item_SoftwareVersion.php:1136
@@ -22261,32 +22261,32 @@ msgstr "Vertical (menu na barra lateral)"
 #: src/CommonITILObject.php:2997
 msgctxt "impact"
 msgid "Very high"
-msgstr "Muito Alto"
+msgstr "Muito alto"
 
 #: src/CommonITILObject.php:2753
 msgctxt "priority"
 msgid "Very high"
-msgstr "Muito Alto"
+msgstr "Muito alto"
 
 #: templates/anonymous_helpdesk.html.twig src/CommonITILObject.php:2875
 msgctxt "urgency"
 msgid "Very high"
-msgstr "Muito Alto"
+msgstr "Muito alto"
 
 #: src/CommonITILObject.php:3009
 msgctxt "impact"
 msgid "Very low"
-msgstr "Muito Baixo"
+msgstr "Muito baixo"
 
 #: src/CommonITILObject.php:2765
 msgctxt "priority"
 msgid "Very low"
-msgstr "Muito Baixo"
+msgstr "Muito baixo"
 
 #: templates/anonymous_helpdesk.html.twig src/CommonITILObject.php:2887
 msgctxt "urgency"
 msgid "Very low"
-msgstr "Muito Baixo"
+msgstr "Muito baixo"
 
 #: src/Item_Devices.php:1002 src/KnowbaseItem.php:2134
 msgid "View"
@@ -22321,7 +22321,7 @@ msgstr "Ver representação gráfica"
 
 #: templates/components/itilobject/footer.html.twig
 msgid "View other actions"
-msgstr "Veja outras acções"
+msgstr "Veja outras ações"
 
 #: src/Planning.php:1276
 msgid "View this item in his context"
@@ -22340,7 +22340,7 @@ msgstr[2] "Máquinas virtuais"
 
 #: src/ComputerVirtualMachine.php:678
 msgid "Virtual machine Comment"
-msgstr "Comentário da Máquina Virtual"
+msgstr "Comentário da máquina virtual"
 
 #: src/Inventory/Conf.php:667
 msgid "Virtual network cards"
@@ -22378,11 +22378,11 @@ msgstr "Visibilidade"
 
 #: src/KnowbaseItem.php:2151 src/Reminder.php:427
 msgid "Visibility end date"
-msgstr "Visibility end date"
+msgstr "Data de término da visibilidade"
 
 #: src/KnowbaseItem.php:2143 src/Reminder.php:419
 msgid "Visibility start date"
-msgstr "Visibility start date"
+msgstr "Data de início da visibilidade"
 
 #: src/ITILCategory.php:118 src/ITILCategory.php:237
 msgid "Visible for a change"
@@ -22914,7 +22914,7 @@ msgstr "Você está usando uma versão de pré-lançamento, tenha cuidado!"
 
 #: src/CommonDropdown.php:608
 msgid "You can also replace all uses of this dropdown by another."
-msgstr "Você pode também substituir as funcionalidades deste Menu de selecção por outro Menu de selecção."
+msgstr "Você pode também substituir as funcionalidades deste Menu de seleção por outro Menu de seleção."
 
 #: src/Transfer.php:4105
 msgid "You can continue to add elements to be transferred or execute the transfer now"
@@ -22965,7 +22965,7 @@ msgstr "Você não pode adicionar uma entidade sem nome"
 
 #: src/MassiveAction.php:1477
 msgid "You can't delete that item by massive actions, because it has sub-items"
-msgstr "Você não pode eliminar esse item atraves de acções massivas, pois contém sub-itens"
+msgstr "Você não pode eliminar esse item atraves de ações massivas, pois contém sub-itens"
 
 #: src/CommonDropdown.php:582
 msgid "You can't delete that item, because it has sub-items"
@@ -23016,7 +23016,7 @@ msgstr "Você não tem acesso a esta aplicação porque a sua conta foi desactiv
 #: src/Html.php:628 src/Api/API.php:1044 src/Api/API.php:1814 src/Api/API.php:1944 src/Api/API.php:2079
 #: src/Api/API.php:2684
 msgid "You don't have permission to perform this action."
-msgstr "Você não tem permissões para executar esta acção."
+msgstr "Você não tem permissões para executar esta ação."
 
 #: src/Session.php:181 src/Session.php:189
 msgid "You don't have right to connect"
@@ -23048,7 +23048,7 @@ msgstr "Você foi redireccionado porque já não tem acesso a este ticket"
 msgid ""
 "You have more automatic actions which need to run each minute than the number allow each run. Increase this "
 "config."
-msgstr "Você possui mais acções automáticas por minuto do que é permitido por execução. Aumente esta configuração."
+msgstr "Você possui mais ações automáticas por minuto do que é permitido por execução. Aumente esta configuração."
 
 #: templates/layout/parts/saved_searches_list.html.twig
 msgid "You have not recorded any saved searches yet"
@@ -23787,7 +23787,7 @@ msgstr "para"
 
 #: templates/password_form.html.twig
 msgid "to the login screen."
-msgstr "para a página de login."
+msgstr "para a tela de login."
 
 #: src/Session.php:421 src/Session.php:426
 msgid "tree structure"
