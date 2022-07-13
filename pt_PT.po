@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-12 18:22+0100\n"
+"PO-Revision-Date: 2022-07-13 13:04+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -523,7 +523,7 @@ msgstr "%1$s páginas restantes"
 #: src/Config.php:1894
 #, php-format
 msgid "%1$s restart rate is correct"
-msgstr "%1$staxa de reinício está correta"
+msgstr "%1$s taxa de reinício está correta"
 
 #: src/Config.php:1891
 #, php-format
@@ -1811,7 +1811,7 @@ msgid ""
 "'All' criterion is not usable with this object list, sql query fails (too many tables). Please use 'Items seen' "
 "criterion instead"
 msgstr ""
-"O critério 'Todos' não é utilizável nesta lista de objetos, a pesquisa de sql falha (demasiadas tabelas). Em "
+"O critério 'Todos' não é utilizável nesta lista de objectos, a pesquisa de SQL falha (demasiadas tabelas). Em "
 "alternativa por favor utilize 'Items visualizados' no critério"
 
 #: front/massiveaction.php:84
@@ -2436,7 +2436,7 @@ msgstr "Adicionar um campo escondido"
 #: src/NetworkEquipment.php:277 src/Printer.php:339
 msgctxt "button"
 msgid "Add a license"
-msgstr "Adicionar licença"
+msgstr "Adicionar uma licença"
 
 #: src/Log.php:1124
 msgid "Add a link with an item"
@@ -2449,11 +2449,11 @@ msgstr "Adicione uma ligação com um item"
 #: src/Group.php:354
 msgctxt "button"
 msgid "Add a manager"
-msgstr "Adicionar Gestor"
+msgstr "Adicionar um gestor"
 
 #: src/ITILTemplateMandatoryField.php:198
 msgid "Add a mandatory field"
-msgstr "Adicionar campo obrigatório"
+msgstr "Adicionar um campo obrigatório"
 
 #: src/NetworkPortMigration.php:246
 msgid "Add a network"
@@ -2502,7 +2502,7 @@ msgstr "Adicione um novo item"
 
 #: src/Pdu_Plug.php:124
 msgid "Add a new plug"
-msgstr "Adicionar nova ficha"
+msgstr "Adicionar uma nova ficha"
 
 #: src/CommonITILTask.php:1476 src/Ticket.php:2534 src/Problem.php:429 src/Change_Ticket.php:304
 #: src/Problem_Ticket.php:335
@@ -2512,7 +2512,7 @@ msgstr "Adicionar uma nova tarefa"
 #: src/ReminderTranslation.php:147 src/DropdownTranslation.php:395 src/KnowbaseItemTranslation.php:211
 #: src/NotificationTemplateTranslation.php:195
 msgid "Add a new translation"
-msgstr "Adicionar nova tradução"
+msgstr "Adicionar uma nova tradução"
 
 #: src/ITILTemplatePredefinedField.php:289
 msgid "Add a predefined field"
@@ -2520,15 +2520,15 @@ msgstr "Adicionar um campo pré-definido"
 
 #: src/Change_Problem.php:289 src/Itil_Project.php:188 src/Problem_Ticket.php:414
 msgid "Add a problem"
-msgstr "Adicionar problema"
+msgstr "Adicionar um problema"
 
 #: src/Itil_Project.php:334
 msgid "Add a project"
-msgstr "Adicionar projecto"
+msgstr "Adicionar um projecto"
 
 #: src/ProjectTask_Ticket.php:294
 msgid "Add a project task"
-msgstr "Adicionar nova tarefa ao projecto"
+msgstr "Adicionar uma nova tarefa ao projecto"
 
 #: src/Item_RemoteManagement.php:130
 msgid "Add a remote management"
@@ -2571,12 +2571,12 @@ msgstr "Adicionar um modelo"
 
 #: src/CommonDBTM.php:5203
 msgid "Add a template..."
-msgstr "Adicionar modelo..."
+msgstr "Adicionar um modelo..."
 
 #: src/Itil_Project.php:191 src/Ticket_Contract.php:88 src/Change_Ticket.php:275 src/ProjectTask_Ticket.php:173
 #: src/Problem_Ticket.php:303
 msgid "Add a ticket"
-msgstr "Adicionar ticket"
+msgstr "Adicionar um ticket"
 
 #: src/Group_User.php:335
 msgid "Add a user"
@@ -2594,7 +2594,7 @@ msgstr "Adicionar um utilizador sem acreditação no directório LDAP"
 #: src/SoftwareVersion.php:313
 msgctxt "button"
 msgid "Add a version"
-msgstr "Adicionar versão"
+msgstr "Adicionar uma versão"
 
 #: src/ComputerVirtualMachine.php:314
 msgid "Add a virtual machine"
@@ -2602,7 +2602,7 @@ msgstr "Adicionar uma máquina virtual"
 
 #: src/Item_Disk.php:277
 msgid "Add a volume"
-msgstr "Adicionar volume"
+msgstr "Adicionar um volume"
 
 #: src/Change.php:217 src/Ticket.php:2551 src/Problem.php:432
 msgid "Add an actor"
@@ -2861,7 +2861,7 @@ msgstr "Endereço"
 
 #: src/NotificationMailingSetting.php:93
 msgid "Address to use in from for sent emails."
-msgstr "Endereço para usar no campo De nos e-mails enviados."
+msgstr "Endereço para usar no campo \"De\" nos e-mails enviados."
 
 #: src/DbUtils.php:1300
 msgid "Address:"
@@ -2937,7 +2937,7 @@ msgstr[2] "Agentes"
 
 #: src/Entity.php:1898
 msgid "Agent base URL"
-msgstr "URL base do Técnico"
+msgstr "URL base do agente"
 
 #: src/Inventory/Conf.php:796
 msgid "Agent cleanup"
@@ -3035,7 +3035,7 @@ msgstr "Alias"
 
 #: src/NetworkPortAlias.php:43
 msgid "Alias port"
-msgstr "Porta Alias"
+msgstr "Porta do alias"
 
 #: src/Change.php:612 src/Planning.php:462 src/Search.php:2041 src/Search.php:2863
 #: src/RuleImportAssetCollection.php:119 src/Ticket.php:3740 src/Profile_User.php:568 src/Dropdown.php:2212
@@ -3373,7 +3373,7 @@ msgstr[2] "Anti-vírus"
 
 #: src/ComputerAntivirus.php:288 src/ComputerAntivirus.php:366
 msgid "Antivirus version"
-msgstr "Versão de anti-vírus"
+msgstr "Versão d0 anti-vírus"
 
 #: src/Console/Migration/AppliancesPluginToCoreCommand.php:161
 msgid "Any previous appliance created in core will be lost."
@@ -3479,7 +3479,7 @@ msgstr "Requerente da aprovação"
 
 #: src/CommonITILValidation.php:934 src/CommonITILValidation.php:1228
 msgid "Approval status"
-msgstr "Status aprovação"
+msgstr "Status da aprovação"
 
 #: src/CommonITILValidation.php:940
 msgid "Approvals for the ticket"
@@ -4038,7 +4038,7 @@ msgstr "Encerramento automático dos tickets solucionados depois de"
 
 #: src/Config.php:610
 msgid "Automatic fields (marked by *)"
-msgstr "Campos automáticos (Marcados com *)"
+msgstr "Campos automáticos (marcados por *)"
 
 #: templates/components/itilobject/timeline/pending_reasons.html.twig
 msgid "Automatic follow-up"
@@ -4237,7 +4237,7 @@ msgstr "Imagem de fundo (blueprint)"
 
 #: templates/components/itilobject/fields_panel.html.twig src/Change.php:552 src/NotificationTargetChange.php:277
 msgid "Backup plan"
-msgstr "Plano Backup"
+msgstr "Plano de backup"
 
 #: src/Api/API.php:1582
 msgid "Bad field ID in search criteria"
@@ -4419,18 +4419,18 @@ msgstr "Navegar"
 
 #: src/Notification_NotificationTemplate.php:424
 msgid "Browser"
-msgstr "Browser"
+msgstr "Navegador"
 
 #: src/NotificationAjaxSetting.php:43
 msgid "Browser followups configuration"
-msgstr "Configuração de acompanhamentos no browser"
+msgstr "Configuração de acompanhamentos do navegador"
 
 #: src/NotificationAjaxSetting.php:68
 msgid "Browser notification"
 msgid_plural "Browser notifications"
-msgstr[0] "Notificação do browser"
-msgstr[1] "Notificações do browser"
-msgstr[2] "Notificações do browser"
+msgstr[0] "Notificação do navegador"
+msgstr[1] "Notificações do navegador"
+msgstr[2] "Notificações do navegador"
 
 #: src/Budget.php:60
 msgid "Budget"
@@ -5367,11 +5367,11 @@ msgstr "Apagar"
 
 #: templates/layout/parts/profile_selector.html.twig
 msgid "Clear search"
-msgstr "Procurar menu"
+msgstr "Apagar a pesquisa"
 
 #: src/Config.php:709
 msgid "Clear status"
-msgstr "Eliminar o status"
+msgstr "Apagar o status"
 
 #: js/impact.js:2296
 msgid "Click on an element to remove it from the network"
@@ -5733,7 +5733,7 @@ msgstr "Confirmar"
 #: templates/components/itilobject/timeline/form_followup.html.twig templates/components/form/buttons.html.twig
 #: src/Notepad.php:393
 msgid "Confirm the final deletion?"
-msgstr "Confirma a eliminação ?"
+msgstr "Confirma a eliminação?"
 
 #: src/Ticket.php:2641
 msgid "Confirm the merge? This ticket will be deleted!"
@@ -6749,7 +6749,7 @@ msgstr "Decisor"
 #: templates/components/infocom.html.twig src/Infocom.php:1448 src/Infocom.php:1533 src/Entity.php:1356
 #: src/Entity.php:1816
 msgid "Decommission date"
-msgstr "Data de 'decommission'"
+msgstr "Data de desactivação"
 
 #: src/Infocom.php:683 src/Infocom.php:708
 msgid "Decreasing"
@@ -7468,7 +7468,7 @@ msgstr "Diferença entre principal e réplica"
 
 #: src/Config.php:1672
 msgid "Digit"
-msgstr "Digito"
+msgstr "Dígito"
 
 #: src/Config.php:1576
 msgid "Direct Notification (requester for unlock will be the notification sender)"
@@ -7851,7 +7851,7 @@ msgstr "Feito"
 
 #: src/Dashboard/Widget.php:78
 msgid "Donut"
-msgstr "Donut"
+msgstr "Rosquinha"
 
 #: templates/pages/assets/rack.html.twig
 msgid "Door orientation in room"
@@ -9413,7 +9413,7 @@ msgstr ""
 
 #: ajax/ticketsatisfaction.php:101
 msgid "For tickets closed after"
-msgstr "Para ''tickets'' encerrados posteriormente"
+msgstr "Para tickets encerrados posteriormente"
 
 #: src/Api/API.php:1590
 msgid "Forbidden field ID in search criteria"
@@ -9553,7 +9553,7 @@ msgstr "De %s"
 
 #: src/Profile.php:1554 src/Profile.php:1686
 msgid "From \\ To"
-msgstr "De \\ Para"
+msgstr "De\\Para"
 
 #: src/RuleMailCollector.php:94 src/NotImportedEmail.php:146
 msgid "From email header"
@@ -10188,9 +10188,9 @@ msgstr[2] "Categorias ITIL"
 #: src/Profile.php:1367
 msgid "ITIL object"
 msgid_plural "ITIL objects"
-msgstr[0] "Objeto ITIL"
-msgstr[1] "Objetos ITIL"
-msgstr[2] "Objetos ITIL"
+msgstr[0] "Objecto ITIL"
+msgstr[1] "Objectos ITIL"
+msgstr[2] "Objectos ITIL"
 
 #: src/Planning.php:1055
 msgid "Ical"
@@ -11202,7 +11202,7 @@ msgstr "Periocidade da factura"
 
 #: src/Item_DeviceCamera_ImageResolution.php:153
 msgid "Is Video"
-msgstr "É Vídeo"
+msgstr "É vídeo"
 
 #: templates/generic_show_form.html.twig src/Domain.php:98 src/DatabaseInstance.php:229 src/Database.php:92
 #: src/Database.php:458
@@ -11296,7 +11296,7 @@ msgstr "ID do item"
 
 #: src/ObjectLock.php:163
 msgid "Item NOT unlocked!"
-msgstr "Item NÃO desbloqueado !"
+msgstr "Item NÃO desbloqueado!"
 
 #: src/NotificationTargetObjectLock.php:60
 msgid "Item Name"
@@ -11329,7 +11329,7 @@ msgstr "Grupo do item"
 
 #: src/Csv/PlanningCsv.php:74
 msgid "Item id"
-msgstr "Id do item"
+msgstr "ID do item"
 
 #: src/CommonDBTM.php:4328
 msgid "Item in the trashbin"
@@ -11418,7 +11418,7 @@ msgstr "Tipo de item"
 
 #: src/ObjectLock.php:158 src/ObjectLock.php:272
 msgid "Item unlocked!"
-msgstr "Item desbloqueado !"
+msgstr "Item desbloqueado!"
 
 #: src/Search.php:2045 src/Search.php:2838 src/Search.php:2860 src/Config.php:443
 msgid "Items seen"
@@ -11652,7 +11652,7 @@ msgstr "Rótulo"
 
 #: front/user.form.php:185
 msgid "Lang has been changed!"
-msgstr "Lang foi alterado!"
+msgstr "Idioma foi alterado!"
 
 #: templates/pages/login.html.twig src/AuthLDAP.php:935 src/AuthLDAP.php:1225 src/ReminderTranslation.php:170
 #: src/ReminderTranslation.php:228 src/DropdownTranslation.php:422 src/DropdownTranslation.php:501 src/Auth.php:1742
@@ -11854,7 +11854,7 @@ msgstr "Último nome do utilizador que bloqueou"
 #: src/Stat.php:536 src/Stat/Data/Graph/StatDataTicketAverageTime.php:61
 #: src/Stat/Data/Sglobal/StatDataTicketNumber.php:64 src/Dashboard/Provider.php:1094
 msgid "Late"
-msgstr "Final"
+msgstr "Atrasada"
 
 #: src/Dashboard/Provider.php:558 src/Dashboard/Provider.php:702
 msgid "Late own"
@@ -12148,7 +12148,7 @@ msgstr "Ligações entre tipo de consumíveis e consumíveis"
 
 #: src/Transfer.php:3959
 msgid "Links between printers and cartridge types and cartridges"
-msgstr "Ligações entre Impressoras, Tipos de Cartuchos e Cartuchos"
+msgstr "Ligações entre impressoras, tipos de cartucho e cartuchos"
 
 #: src/Transfer.php:4046
 msgid "Links between suppliers and contacts"
@@ -12317,7 +12317,7 @@ msgstr "Bloqueado por %s"
 
 #: src/ObjectLock.php:210
 msgid "Locked by you!"
-msgstr "Bloqueado por si !"
+msgstr "Bloqueado por si!"
 
 #: src/ObjectLock.php:611
 msgid "Locked date"
@@ -12363,7 +12363,7 @@ msgstr "Conecte-se"
 
 #: front/login.php:96
 msgid "Log in again"
-msgstr "Autentique-se novamente"
+msgstr "Conecte-se novamente"
 
 #. TRANS: for CAS SSO system
 #: src/Auth.php:1591
@@ -12704,7 +12704,7 @@ msgstr[2] "Fabricantes"
 
 #: src/RuleDictionnarySoftwareCollection.php:91
 msgid "Manufacturer choice"
-msgstr "Escolha do Fabricante"
+msgstr "Escolha do fabricante"
 
 #: src/Item_DeviceBattery.php:55
 msgid "Manufacturing date"
@@ -13128,7 +13128,7 @@ msgstr "Móvel"
 
 #: src/LineOperator.php:55 src/LineOperator.php:75
 msgid "Mobile Country Code"
-msgstr "Código Móvel de País"
+msgstr "Código móvel do país"
 
 #: src/LineOperator.php:60 src/LineOperator.php:83
 msgid "Mobile Network Code"
@@ -13297,7 +13297,7 @@ msgstr "Falha ao mover o ficheiro temporário."
 
 #: src/NetworkPortEthernet.php:261
 msgid "Multimode fiber"
-msgstr "Fibra Multi Modo"
+msgstr "Fibra multi modo"
 
 #: src/Dashboard/Widget.php:143
 msgid "Multiple areas"
@@ -13676,7 +13676,7 @@ msgstr "Novo"
 
 #: src/MassiveAction.php:1297
 msgid "New Note"
-msgstr "Nova Nota"
+msgstr "Nova nota"
 
 #: src/NotificationTargetChange.php:51
 msgid "New change"
@@ -14729,7 +14729,7 @@ msgstr "Número de tarefas desbloqueadas: %d."
 #: src/NotificationTargetProject.php:651 src/NotificationTargetProjectTask.php:535
 msgctxt "quantity"
 msgid "Number of team members"
-msgstr "Numero de membros de equipa"
+msgstr "Numero de membros da equipa"
 
 #: src/DeviceProcessor.php:75 src/DeviceProcessor.php:121 src/Item_DeviceProcessor.php:68
 msgid "Number of threads"
@@ -14975,7 +14975,7 @@ msgstr "Data de abertura"
 
 #: src/Item_OperatingSystem.php:358
 msgid "Operating System"
-msgstr "Sistema Operativo"
+msgstr "Sistema operativo"
 
 #: src/OperatingSystem.php:44
 msgid "Operating system"
@@ -15083,7 +15083,7 @@ msgstr "Ou procura terminada"
 
 #: src/Dashboard/Grid.php:835
 msgid "Or share the dashboard to these target objects:"
-msgstr "Ou partilhe o painel para estes objetos alvo:"
+msgstr "Ou partilhe o painel para estes objectos alvo:"
 
 #: src/IPAddress.php:251
 msgid "Order by item type"
@@ -15238,9 +15238,9 @@ msgstr[2] "Modelos de PDU"
 #: src/Pdu_Plug.php:48
 msgid "PDU plug"
 msgid_plural "PDU plugs"
-msgstr[0] "Plugue de PDU"
-msgstr[1] "Plugues de PDU"
-msgstr[2] "Plugues de PDU"
+msgstr[0] "Ficha do PDU"
+msgstr[1] "Fichas do PDU"
+msgstr[2] "Fichas do PDU"
 
 #: src/PDUType.php:41
 msgid "PDU type"
@@ -15507,7 +15507,7 @@ msgstr "Performance"
 
 #: src/Planning.php:1554
 msgid "Period"
-msgstr "Periodo"
+msgstr "Período"
 
 #: src/Contract.php:1614
 msgid "Period end"
@@ -15515,7 +15515,7 @@ msgstr "Data de término"
 
 #: src/Contract.php:1615
 msgid "Period end + Notice"
-msgstr "Data de término + período de denuncia"
+msgstr "Data de término + período de denúncia"
 
 #. TRANS: %1$s is Contract, %2$s is field name
 #: src/CommonITILRecurrent.php:186 src/CommonITILRecurrent.php:318 src/Contract.php:274 src/Contract.php:575
@@ -16148,7 +16148,7 @@ msgstr "Submeter"
 #: src/NotificationTargetCommonITILObject.php:1725 src/NotificationTargetCommonITILObject.php:1851
 #: src/Contact.php:303 src/Entity.php:738 src/Entity.php:1536
 msgid "Postal code"
-msgstr "Código Postal"
+msgstr "Código postal"
 
 #: src/Document.php:1425
 msgid "Potential upload attack or file too large. Moving temporary file failed."
@@ -16426,7 +16426,7 @@ msgstr "Número de processadores"
 #: templates/pages/assets/operatingsystem.html.twig src/Item_OperatingSystem.php:345
 #: src/Item_OperatingSystem.php:432
 msgid "Product ID"
-msgstr "ID do Produto"
+msgstr "ID do produto"
 
 #: src/CommonDropdown.php:154
 msgid "Product Number"
@@ -16726,7 +16726,7 @@ msgstr "A tabela \"%s\" do plugin Bastidores está ausente."
 
 #: src/Rule.php:729
 msgid "Ranking"
-msgstr "Ranking"
+msgstr "Classificação"
 
 #: ajax/ticketsatisfaction.php:76
 msgid "Rate to trigger survey"
@@ -17087,9 +17087,9 @@ msgstr "Lembre-me"
 #: src/Reminder.php:71
 msgid "Reminder"
 msgid_plural "Reminders"
-msgstr[0] "Nota"
-msgstr[1] "Notas"
-msgstr[2] "Notas"
+msgstr[0] "Lembrete"
+msgstr[1] "Lembretes"
+msgstr[2] "Lembretes"
 
 #: src/Planning.php:1612 src/Reminder.php:757
 msgctxt "Planning"
@@ -17098,7 +17098,7 @@ msgstr "Lembrete"
 
 #: src/Entity.php:2084
 msgid "Reminders frequency for alarms on cartridges"
-msgstr "Frequência dos lembretes para alarmes dos cartuchos"
+msgstr "Frequência de lembretes para alarmes dos cartuchos"
 
 #: src/Entity.php:2327
 msgid "Reminders frequency for alarms on certificates"
@@ -17106,7 +17106,7 @@ msgstr "Frequência de lembretes para alarmes em certificados"
 
 #: src/Entity.php:2128
 msgid "Reminders frequency for alarms on consumables"
-msgstr "Frequência na recordatória para alarmes nos consumíveis"
+msgstr "Frequência de lembretes para alarmes nos consumíveis"
 
 #: src/Item_RemoteManagement.php:158 src/Item_RemoteManagement.php:346
 msgid "Remote ID"
@@ -17722,17 +17722,17 @@ msgstr "Número da sala"
 
 #: src/Knowbase.php:338
 msgid "Root category"
-msgstr "Categoria Base"
+msgstr "Categoria raíz"
 
 #. TRANS: for CAS SSO system
 #: src/Auth.php:1588
 msgid "Root directory (optional)"
-msgstr "Directório root (opcional)"
+msgstr "Directório raíz (opcional)"
 
 #: install/empty_data.php:2183 install/empty_data.php:2185 install/migrations/update_0.83.x_to_0.84.0.php:294
 #: install/migrations/update_0.83.x_to_0.84.0.php:295
 msgid "Root entity"
-msgstr "Entidade de raiz"
+msgstr "Entidade raiz"
 
 #: src/ContentTemplates/TemplateManager.php:185
 msgid "Root variables"
@@ -18348,7 +18348,7 @@ msgstr "Escolha um par para %s:"
 
 #: templates/layout/parts/profile_selector.html.twig
 msgid "Select all"
-msgstr "Selecionar Tudo"
+msgstr "Selecionar tudo"
 
 #: src/Unmanaged.php:234
 msgid "Select an itemtype: "
@@ -18594,9 +18594,9 @@ msgstr "Servidor"
 #: src/DCRoom.php:51
 msgid "Server room"
 msgid_plural "Server rooms"
-msgstr[0] "Sala de servidor"
-msgstr[1] "Salas de servidor"
-msgstr[2] "Salas de servidor"
+msgstr[0] "Sala do servidor"
+msgstr[1] "Salas do servidor"
+msgstr[2] "Salas do servidor"
 
 #: templates/pages/admin/events_list.html.twig src/Event.php:304 src/Event.php:382
 msgid "Service"
@@ -18776,7 +18776,7 @@ msgstr "Lado (visto pela traseira)"
 
 #: src/PDU_Rack.php:319
 msgid "Side pdus"
-msgstr "Lado pdus"
+msgstr "Lado dos PDUs"
 
 #: templates/pages/login.html.twig
 msgid "Sign in"
@@ -18829,7 +18829,7 @@ msgstr ""
 
 #: src/NetworkPortEthernet.php:262
 msgid "Single mode fiber"
-msgstr "Fibra Mono Modo"
+msgstr "Fibra mono modo"
 
 #: src/NotificationTemplateTranslation.php:412
 msgid "Single value"
@@ -18930,7 +18930,7 @@ msgstr "Software de itens"
 #: templates/components/itilobject/timeline/filter_timeline.html.twig src/ITILSolution.php:59
 msgid "Solution"
 msgid_plural "Solutions"
-msgstr[0] "Soluçãp"
+msgstr[0] "Solução"
 msgstr[1] "Soluções"
 msgstr[2] "Soluções"
 
@@ -19025,7 +19025,7 @@ msgstr "Estão disponíveis actualizações para os seus plugins!"
 
 #: src/Ticket.php:2635 src/Ticket_Ticket.php:188 src/Ticket_Ticket.php:210 src/Ticket_Ticket.php:216
 msgid "Son of"
-msgstr "Filho de"
+msgstr "Descendente de"
 
 #: src/SoftwareLicense.php:1253 src/CommonTreeDropdown.php:561
 #, php-format
@@ -19053,7 +19053,7 @@ msgstr[2] "Placas de som"
 
 #: templates/pages/admin/events_list.html.twig src/Event.php:300 src/Event.php:379 src/RuleImportEntity.php:137
 msgid "Source"
-msgstr "Origem"
+msgstr "Fonte"
 
 #: templates/components/itilobject/timeline/form_followup.html.twig src/ITILFollowup.php:907
 #: src/ITILFollowupTemplate.php:59 src/ITILFollowupTemplate.php:96
@@ -19070,11 +19070,11 @@ msgstr "Espaço"
 
 #: templates/components/form/flags.html.twig src/Phone.php:440
 msgid "Speaker"
-msgstr "Altifalantes"
+msgstr "Coluna de som"
 
 #: templates/components/form/flags.html.twig src/Monitor.php:355
 msgid "Speakers"
-msgstr "Altifalantes"
+msgstr "Colunas de som"
 
 #: src/Item_Devices.php:637
 msgid "Specificities"
@@ -19099,7 +19099,7 @@ msgstr "Barras empilhadas"
 #: src/ITILTemplate.php:399 src/Profile.php:3240 src/Central.php:49 src/ITILTemplateMandatoryField.php:174
 #: src/ITILTemplateMandatoryField.php:208 src/ITILTemplateMandatoryField.php:263
 msgid "Standard interface"
-msgstr "Interface standard"
+msgstr "Interface por defeito"
 
 #: src/Config.php:366
 msgid "Standard interface help link"
@@ -19130,7 +19130,7 @@ msgstr "Início em %s"
 #: front/report.infocom.conso.php:69 front/report.year.list.php:191 front/report.contract.list.php:219
 #: front/stat.tracking.php:141 front/stat.item.php:73 front/report.infocom.php:69
 msgid "Start date"
-msgstr "Data de Início"
+msgstr "Data de início"
 
 #: templates/components/infocom.html.twig src/Infocom.php:1282 src/Infocom.php:1515 src/Entity.php:1296
 #: src/Entity.php:1793
@@ -20709,7 +20709,7 @@ msgstr "Ecrã inteiro"
 
 #: src/Dashboard/Grid.php:293
 msgid "Toggle night mode"
-msgstr "Ativa modo noite"
+msgstr "Ativa modo nocturno"
 
 #: templates/components/itilobject/footer.html.twig
 msgid "Toggle panels width"
@@ -20839,7 +20839,7 @@ msgstr "Total gasto no orçamento"
 
 #: front/report.infocom.conso.php:353 front/report.infocom.php:374
 msgid "Total value"
-msgstr "Valor Total"
+msgstr "Valor total"
 
 #: src/Cartridge.php:411
 #, php-format
@@ -20935,7 +20935,7 @@ msgstr "Terça-feira"
 
 #: src/NetworkPortEthernet.php:260
 msgid "Twisted pair (RJ-45)"
-msgstr "Par Entrelaçado ( RJ-45 )"
+msgstr "Par entrelaçado (RJ-45)"
 
 #: templates/generic_show_form.html.twig templates/components/itilobject/fields_panel.html.twig
 #: templates/components/itilobject/selfservice.html.twig src/Item_Project.php:150 src/Budget.php:140
@@ -21471,7 +21471,7 @@ msgstr "Desbloquear"
 
 #: src/NotificationTargetObjectLock.php:52
 msgid "Unlock Item Request"
-msgstr "Pedido para desbloquear o item"
+msgstr "Desbloquear pedido de item"
 
 #: src/Log.php:1104
 msgid "Unlock a component"
@@ -21678,7 +21678,7 @@ msgstr "Actualização de "
 #: src/Console/Migration/TimestampsCommand.php:185
 #, php-format
 msgid "Update of `%s` failed with message \"(%s) %s\"."
-msgstr "Falhou actualização de `%s` com mensagem \"(%s) %s\"."
+msgstr "Actualização de `%s` falhou com mensagem \"(%s) %s\"."
 
 #: src/Console/Migration/BuildMissingTimestampsCommand.php:112
 #, php-format
@@ -21719,11 +21719,11 @@ msgstr "Actualização de um ticket"
 
 #: src/Log.php:710
 msgid "Update of the field"
-msgstr "Modificação de um campo"
+msgstr "Actualização do campo"
 
 #: src/Entity.php:3818
 msgid "Update parameters"
-msgstr "Actualizar parametros"
+msgstr "Actualizar parâmetros"
 
 #: src/Profile.php:763 src/Profile.php:2952 front/updatepassword.php:43 front/updatepassword.php:46
 #: front/updatepassword.php:49
@@ -22348,7 +22348,7 @@ msgstr "Placas de rede virtual"
 
 #: src/NetworkPortInstantiation.php:167 src/NetworkPortInstantiation.php:203
 msgid "Virtual ports"
-msgstr "Portas Virtuais"
+msgstr "Portas virtuais"
 
 #: src/ComputerVirtualMachine.php:56
 msgid "Virtualization"
@@ -23231,7 +23231,7 @@ msgstr "Seu ticket foi registado."
 
 #: src/Ticket.php:4828
 msgid "Your tickets having rejected approval status"
-msgstr "Seus tickets estão como rejeitados"
+msgstr "Seus tickets estão a ser rejeitados"
 
 #: src/Ticket.php:4845
 msgid "Your tickets having rejected solution"
@@ -23469,7 +23469,7 @@ msgstr "não é CDR"
 
 #: src/NetworkPortInstantiation.php:692
 msgid "item not linked to an object"
-msgstr "item não se encontra ligado a um objeto"
+msgstr "item não se encontra ligado a um objecto"
 
 #: src/Api/APIXmlrpc.php:160
 msgid "itemtype not found or not an instance of CommonDBTM"
