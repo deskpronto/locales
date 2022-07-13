@@ -19,7 +19,7 @@ rm /tmp/glpi/pics/login_logo_glpi.png
 rm /tmp/glpi/pics/logos/logo-GLPI*.*
 mv /tmp/locales/fd_logo.png         /tmp/glpi/pics
 mv /tmp/locales/login_logo_glpi.png /tmp/glpi/pics
-mv /tmp/glpi/pics/logo-GLPI*.*      /tmp/glpi/pics/logos
+mv /tmp/locales/logo-GLPI*.*        /tmp/glpi/pics/logos
 
 mv glpi /var/www/
 chmod 755 -R /var/www/glpi/
