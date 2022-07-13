@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-13 14:54+0100\n"
+"PO-Revision-Date: 2022-07-13 18:07+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -19099,7 +19099,7 @@ msgstr "Barras empilhadas"
 #: src/ITILTemplate.php:399 src/Profile.php:3240 src/Central.php:49 src/ITILTemplateMandatoryField.php:174
 #: src/ITILTemplateMandatoryField.php:208 src/ITILTemplateMandatoryField.php:263
 msgid "Standard interface"
-msgstr "Interface por defeito"
+msgstr "Início"
 
 #: src/Config.php:366
 msgid "Standard interface help link"
