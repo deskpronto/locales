@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 15:50+0100\n"
+"PO-Revision-Date: 2022-07-14 16:01+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -13333,7 +13333,7 @@ msgstr "Os meus grupos"
 
 #: templates/layout/parts/user_header.html.twig src/Html.php:1478
 msgid "My settings"
-msgstr "Minhas configurações"
+msgstr "Minhas definições"
 
 #: src/Project.php:238 src/Project.php:261 src/Project.php:263
 msgid "My tasks"
@@ -16906,7 +16906,7 @@ msgstr "Alterações recorrentes"
 
 #: src/TicketRecurrent.php:55 src/Profile.php:1379
 msgid "Recurrent tickets"
-msgstr "Recorrentes"
+msgstr "Recorrência"
 
 #: js/planning.js:525
 msgid "Recurring event dragged"
