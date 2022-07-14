@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-13 18:07+0100\n"
+"PO-Revision-Date: 2022-07-14 13:53+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -1953,7 +1953,7 @@ msgstr "O valor \"%s\" de --ldap-server-id não é válido como id de servidor L
 
 #: src/User.php:2231
 msgid "... From an external source"
-msgstr "... De um fonte externa"
+msgstr "... De uma fonte externa"
 
 #: src/CommonDCModelDropdown.php:238
 msgid "1"
@@ -2410,7 +2410,7 @@ msgstr "Adicionar um documento"
 #: src/Document.php:1680 src/CommonITILObject.php:6454
 msgctxt "button"
 msgid "Add a document"
-msgstr "Adicionar um Documento"
+msgstr "Adicionar um documento"
 
 #: js/dashboard.js:367
 msgid "Add a filter"
@@ -3075,7 +3075,7 @@ msgstr "Todos os itens"
 
 #: src/Ticket.php:3382
 msgid "All linked tickets"
-msgstr "Todos os tickets ligados"
+msgstr "Todos os tickets relacionados"
 
 #: src/KnowbaseItem.php:1339
 msgid "All my articles"
@@ -3236,11 +3236,11 @@ msgstr "Sempre desreferenciado"
 
 #: src/MassiveAction.php:811
 msgid "Amend comment"
-msgstr "Comentário da amenda"
+msgstr "Comentário"
 
 #: src/MassiveAction.php:1283
 msgid "Amendment to insert"
-msgstr "Amenda a inserir"
+msgstr "Descritivo"
 
 #: templates/components/infocom.html.twig src/Infocom.php:1408 src/Infocom.php:1639
 msgid "Amortization coefficient"
@@ -3256,7 +3256,7 @@ msgstr "Tipo de amortização"
 
 #: src/IPNetwork.php:275
 msgid "An addressable network is a network defined on an equipment"
-msgstr "Uma rede endereçável é uma rede definida num equipamento"
+msgstr "Uma rede endereçável é uma rede definida em um equipamento"
 
 #: src/NotificationTargetTicket.php:723 src/NotificationTargetChange.php:340
 msgid "An answer to a validation request was produced"
@@ -3562,7 +3562,7 @@ msgstr "Assim que possível"
 
 #: templates/components/form/inventory_info.html.twig src/Features/Inventoriable.php:203
 msgid "Ask agent about its current status"
-msgstr "Pergunte ao técnico sobre seu status atual"
+msgstr "Pergunte ao técnico sobre seu status actual"
 
 #: src/ObjectLock.php:296
 msgid "Ask for unlock"
@@ -4106,7 +4106,7 @@ msgstr "Atribução automática de utilizador"
 
 #: src/User.php:4595
 msgid "Automatically add a user of an external source"
-msgstr "Adicionar automaticamente utilizador de fonte externa"
+msgstr "Adicionar automaticamente utilizador de uma fonte externa"
 
 #: src/Config.php:745
 msgid "Automatically add users from an external authentication source"
@@ -4280,7 +4280,7 @@ msgstr "Tenha cuidado: não existe valor por defeito"
 #. TRANS: short for : To be in charge of a ticket
 #: src/Ticket.php:6161
 msgid "Beeing in charge"
-msgstr "Ficar responsável"
+msgstr "Ficar encarregado"
 
 #: src/Rule.php:623
 msgid "Before"
@@ -4520,7 +4520,7 @@ msgstr "Por dia"
 
 #: src/Config.php:997
 msgid "By default, a software may be linked to a ticket"
-msgstr "Por predefinição, um software poderá ser ligado a um ticket"
+msgstr "Por predefinição, um software poderá ser relacionado a um ticket"
 
 #: src/Config.php:612
 msgid "By entity"
@@ -5080,7 +5080,7 @@ msgstr "Alterações"
 
 #: src/Change.php:873
 msgid "Changes on linked items"
-msgstr "Alterações nos itens ligados"
+msgstr "Alterações nos itens relacionados"
 
 #: src/Change.php:1166 src/Change.php:1215
 msgid "Changes on pending status"
@@ -5132,7 +5132,7 @@ msgstr "Verificar novas actualizações"
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:83
 msgid "Check for schema differences between current database and installation file."
-msgstr "Verificar diferenças de esquema da base de dados atual e de instalação."
+msgstr "Verificar diferenças de esquema da base de dados actual e de instalação."
 
 #: src/Config.php:2210
 msgid "Check if a new version is available"
@@ -5375,7 +5375,7 @@ msgstr "Apagar o status"
 
 #: js/impact.js:2296
 msgid "Click on an element to remove it from the network"
-msgstr "Clique num elemento para o remover da rede"
+msgstr "Clique em um elemento para o remover da rede"
 
 #: templates/layout/parts/profile_selector.html.twig
 #, php-format
@@ -5763,7 +5763,7 @@ msgstr "Conectado"
 
 #: src/Item_Ticket.php:880
 msgid "Connected devices"
-msgstr "Dispositivos ligados"
+msgstr "Dispositivos relacionados"
 
 #: src/NetworkPortConnectionLog.php:118
 msgid "Connected item"
@@ -5773,7 +5773,7 @@ msgstr "Item conectado"
 #: src/NetworkPortFiberchannel.php:125 src/NetworkPortFiberchannel.php:145 src/NetworkPortEthernet.php:129
 #: src/NetworkPortEthernet.php:145
 msgid "Connected to"
-msgstr "Ligado a"
+msgstr "Relacionado a"
 
 #: src/NetworkPort.php:1647 src/Computer_Item.php:801 src/Event.php:171
 msgid "Connection"
@@ -6350,7 +6350,7 @@ msgstr "Atual"
 #, php-format
 msgid "Current GLPI version not found for database named \"%s\". Update cannot be done."
 msgstr ""
-"A versão atual do GLPI não foi encontrada para a base de dados chamada \"%s\". A actualização não pode ser feita."
+"A versão actual do GLPI não foi encontrada para a base de dados chamada \"%s\". A actualização não pode ser feita."
 
 #: src/Reservation.php:1101
 msgid "Current and future reservations"
@@ -7043,7 +7043,7 @@ msgstr "Apagar permanentemente mas manter dispositivos"
 #: src/MassiveAction.php:798
 msgctxt "button"
 msgid "Delete permanently even if linked items"
-msgstr "Apagar permanentemente mesmo se existirem itens ligados"
+msgstr "Apagar permanentemente mesmo se existirem itens relacionados"
 
 #: src/MassiveAction.php:792
 msgctxt "button"
@@ -7593,7 +7593,7 @@ msgstr "Mostrar relatório"
 
 #: src/Config.php:524
 msgid "Display source dropdown on login page"
-msgstr "Mostrar dropdown da fonte na página de login"
+msgstr "Mostrar origem do menu de seleção na página de login"
 
 #: src/Config.php:1221
 msgid "Display the complete name in tree dropdowns"
@@ -8877,7 +8877,7 @@ msgstr "Externo"
 
 #: front/auth.settings.php:43 front/auth.others.php:49 front/setup.auth.php:42
 msgid "External authentication sources"
-msgstr "Fontes de autenticações externas"
+msgstr "Fontes de autenticação externas"
 
 #: templates/pages/setup/authentication.html.twig src/Dropdown.php:1183 src/Auth.php:1103
 msgid "External authentications"
@@ -9242,7 +9242,7 @@ msgstr "Informações financeiras e administrativas"
 
 #: src/ReservationItem.php:458 src/ReservationItem.php:469
 msgid "Find a free item in a specific period"
-msgstr "Procurar um item livre num período específico"
+msgstr "Procurar um item livre em um período específico"
 
 #: src/RuleImportComputer.php:85
 msgid "Find computers in GLPI having the status"
@@ -9318,7 +9318,7 @@ msgstr "Custo fixo"
 
 #: templates/components/form/header.html.twig
 msgid "Flag change forbidden. Linked items found."
-msgstr "Não é possível marcar como alteração. Foram encontrados itens ligados."
+msgstr "Não é possível marcar como alteração. Foram encontrados itens relacionados."
 
 #: src/DeviceCamera.php:71 src/DeviceCamera.php:119 src/DeviceCamera.php:182
 msgid "Flashunit"
@@ -9443,12 +9443,12 @@ msgstr ""
 #: src/Console/Ldap/SynchronizeUsersCommand.php:124
 #, php-format
 msgid "Force strategy used for deleted users (current configured action: \"%s\")"
-msgstr "Forçar estratégia usada para utilizadores eliminados (ação configurada atual: \"%s\")"
+msgstr "Forçar estratégia usada para utilizadores eliminados (ação configurada actual: \"%s\")"
 
 #: src/Console/Ldap/SynchronizeUsersCommand.php:147
 #, php-format
 msgid "Force strategy used for restored users (current configured action: \"%s\")"
-msgstr "Estratégia de força usada para utilizadores restaurados (ação configurada atual: \"%s\")"
+msgstr "Estratégia de força usada para utilizadores restaurados (ação configurada actual: \"%s\")"
 
 #: src/Auth.php:1464 src/User.php:3333
 msgid "Force synchronization"
@@ -9482,7 +9482,7 @@ msgstr[2] "Formatos"
 
 #: src/NotificationTargetCommonITILObject.php:820
 msgid "Former technician in charge of the ticket"
-msgstr "Anterior técnico responsável pelo ticket"
+msgstr "Técnico anterior encarregado do ticket"
 
 #: src/Console/Security/ChangekeyCommand.php:73
 #, php-format
@@ -9602,7 +9602,7 @@ msgstr "Versão da base de dados GLPI"
 
 #: src/Auth.php:1217 src/Auth.php:1765
 msgid "GLPI internal database"
-msgstr "Base de dados interna do GLPI"
+msgstr "Base de dados do GLPI"
 
 #: src/Marketplace/View.php:1055
 msgid "GLPI provides a new marketplace to download and install plugins."
@@ -9626,7 +9626,7 @@ msgstr "Gateway"
 
 #: src/NetworkPortMigration.php:117
 msgid "Gateway not include inside the network"
-msgstr "A gateway não se encontra incluída dentro desta rede"
+msgstr "O gateway não está incluído nesta rede"
 
 #: ajax/dropdownShowIPNetwork.php:61
 #, php-format
@@ -9824,11 +9824,11 @@ msgstr "Grupo excepto utilizadores de gestores"
 #: src/Appliance.php:191 src/CommonITILTask.php:960 src/DomainRecord.php:146 src/DomainRecord.php:462
 #: src/Domain_Item.php:524 src/Domain.php:128 src/Domain.php:212 src/DatabaseInstance.php:434
 msgid "Group in charge"
-msgstr "Grupo responsável"
+msgstr "Grupo encarregado"
 
 #: src/NotificationTargetCertificate.php:60
 msgid "Group in charge of the certificate"
-msgstr "Grupo responsável pelo certificado"
+msgstr "Grupo encarregado do certificado"
 
 #: src/NotificationTargetDomain.php:54
 msgid "Group in charge of the domain"
@@ -9841,27 +9841,27 @@ msgstr "Grupo encarregue do domínio"
 #: src/NetworkEquipment.php:469 src/Certificate.php:269 src/Enclosure.php:201 src/RuleImportEntity.php:263
 #: src/NotificationTargetReservation.php:60 src/Printer.php:611
 msgid "Group in charge of the hardware"
-msgstr "Grupo responsável pelo hardware"
+msgstr "Grupo encarregado do hardware"
 
 #: src/SoftwareLicense.php:489
 msgid "Group in charge of the license"
-msgstr "Grupo responsável pela licença"
+msgstr "Grupo encarregado da licença"
 
 #: src/Software.php:450
 msgid "Group in charge of the software"
-msgstr "Grupo responsável pelo software"
+msgstr "Grupo encarregado do software"
 
 #: src/NotificationTargetCommonITILObject.php:872 src/NotificationTargetPlanningRecall.php:56
 msgid "Group in charge of the task"
-msgstr "Grupo responsável pela tarefa"
+msgstr "Grupo encarregado da tarefa"
 
 #: src/NotificationTargetCommonITILObject.php:855
 msgid "Group in charge of the ticket"
-msgstr "Grupo responsável pelo ticket"
+msgstr "Grupo encarregado do ticket"
 
 #: src/NotificationTargetCommonITILObject.php:836
 msgid "Group in charge of the ticket except manager users"
-msgstr "Grupo responsável pelo ticket exceto utilizadores de gestores"
+msgstr "Grupo encarregado do ticket exceto gestores"
 
 #: src/NotificationTargetProject.php:69
 msgid "Group of project team"
@@ -11357,7 +11357,7 @@ msgstr "Item não encontrado"
 
 #: src/NetworkPortInstantiation.php:642 src/CommonDBChild.php:273
 msgid "Item not linked to an object"
-msgstr "Item não ligado a um objecto"
+msgstr "Item não relacionado a um objecto"
 
 #: src/Item_OperatingSystem.php:49
 msgid "Item operating system"
@@ -12112,27 +12112,27 @@ msgstr "Ligar com itens para a criação de tickets"
 
 #: src/RuleImportAsset.php:182
 msgid "Linked asset"
-msgstr "Activos ligados"
+msgstr "Activos relacionados"
 
 #: src/KnowbaseItem_Item.php:198
 msgid "Linked item"
 msgid_plural "Linked items"
-msgstr[0] "Item ligado"
-msgstr[1] "Itens ligados"
-msgstr[2] "Itens ligados"
+msgstr[0] "Item relacionado"
+msgstr[1] "Itens relacionados"
+msgstr[2] "Itens relacionados"
 
 #: src/NotificationTargetTicket.php:774 src/NotificationTargetTicket.php:790 src/NotificationTargetTicket.php:833
 #: src/NotificationTargetTicket.php:838 src/NotificationTargetTicket.php:843 src/NotificationTargetTicket.php:848
 #: src/NotificationTargetTicket.php:853 src/Ticket.php:3375 src/Ticket_Ticket.php:56
 msgid "Linked ticket"
 msgid_plural "Linked tickets"
-msgstr[0] "Ticket ligado"
-msgstr[1] "Tickets ligados"
-msgstr[2] "Tickets ligados"
+msgstr[0] "Ticket relacionado"
+msgstr[1] "Tickets relacionados"
+msgstr[2] "Tickets relacionados"
 
 #: src/Ticket.php:2633 src/Ticket_Ticket.php:186 src/Ticket_Ticket.php:208 src/Ticket_Ticket.php:213
 msgid "Linked to"
-msgstr "Ligado a"
+msgstr "Relacionado a"
 
 #: src/Transfer.php:3970
 msgid "Links between cartridge types and cartridges"
@@ -12273,7 +12273,7 @@ msgstr "Árvore de localizações"
 
 #: src/Computer_Item.php:117 src/Computer.php:279
 msgid "Location updated. The connected items have been moved in the same location."
-msgstr "Localização actualizada. Os itens ligados foram movidos para a mesma licalização."
+msgstr "Localização actualizada. Os itens relacionados foram movidos para a mesma localização."
 
 #: src/Lock.php:54
 msgid "Lock"
@@ -12665,7 +12665,7 @@ msgstr "Gestor de grupo gestor"
 
 #: src/NotificationTargetCommonITILObject.php:832
 msgid "Manager of the group in charge of the ticket"
-msgstr "Gestor do grupo responsável pelo ticket"
+msgstr "Gestor do grupo encarregado do ticket"
 
 #: src/ITILTemplateMandatoryField.php:47
 msgid "Mandatory field"
@@ -12914,11 +12914,11 @@ msgstr "Fundir actores"
 
 #: src/ITILTemplate.php:522 src/CommonDropdown.php:808
 msgid "Merge and assign to current entity"
-msgstr "Funde e atribui à entidade atual"
+msgstr "Fundir e atribuir à entidade actual"
 
 #: src/Ticket.php:2516
 msgid "Merge as Followup"
-msgstr "Fundir como Acompanhamento"
+msgstr "Fundir como acompanhamento"
 
 #: src/Ticket.php:2612
 msgid "Merge documents"
@@ -12926,7 +12926,7 @@ msgstr "Fundir documentos"
 
 #: src/Ticket.php:2606
 msgid "Merge followups"
-msgstr "Funde acompanhamentos"
+msgstr "Fundir acompanhamentos"
 
 #: src/Ticket.php:2618
 msgid "Merge tasks"
@@ -14097,7 +14097,7 @@ msgstr "Nenhum tipo de item definido"
 
 #: src/KnowbaseItem_Item.php:186 src/KnowbaseItem_KnowbaseItemCategory.php:195
 msgid "No knowledge base entries linked"
-msgstr "Nenhuma entrada de base de conhecimento ligada"
+msgstr "Nenhuma entrada de base de conhecimento relacionada"
 
 #: src/Impact.php:392
 msgid "No limit"
@@ -14109,7 +14109,7 @@ msgstr "Sem ligação definida"
 
 #: src/KnowbaseItem_Item.php:185 src/KnowbaseItem_KnowbaseItemCategory.php:194
 msgid "No linked items"
-msgstr "Nenhum item ligado"
+msgstr "Nenhum item relacionado"
 
 #: src/Lock.php:521
 msgid "No locked item"
@@ -14351,7 +14351,7 @@ msgstr "Desligado"
 
 #: src/NetworkPortInstantiation.php:952
 msgid "Not connected."
-msgstr "Não ligado."
+msgstr "Não relacionado."
 
 #: src/Item_Disk.php:613
 msgid "Not encrypted"
@@ -14536,7 +14536,7 @@ msgstr "Numero de itens afetados"
 
 #: src/Ticket.php:3411
 msgid "Number of all linked tickets"
-msgstr "Número de todos os tickets ligados"
+msgstr "Número de todos os tickets relacionados"
 
 #: src/Stat.php:549
 msgid "Number of answered satisfaction survey"
@@ -14637,7 +14637,7 @@ msgstr "Numero de linhas"
 #: src/NotificationTargetTicket.php:661
 msgctxt "quantity"
 msgid "Number of linked tickets"
-msgstr "Numero de tickets ligados"
+msgstr "Numero de tickets relacionados"
 
 #: src/MailCollector.php:930
 #, php-format
@@ -14934,7 +14934,7 @@ msgstr "Abrir numa nova janela"
 
 #: js/impact.js:1315
 msgid "Open this element in a new tab"
-msgstr "Abrir este elemento num separador"
+msgstr "Abrir este elemento em um separador"
 
 #: src/Stat.php:560 src/Stat/Data/Graph/StatDataSatisfactionSurvey.php:53
 #: src/Stat/Data/Sglobal/StatDataSatisfaction.php:56
@@ -15706,7 +15706,7 @@ msgstr "Tarte"
 
 #: templates/layout/parts/saved_searches.html.twig
 msgid "Pin this panel for the current page"
-msgstr "Fixar este painel na página atual"
+msgstr "Fixar este painel na página actual"
 
 #: templates/components/form/flags.html.twig src/Monitor.php:387
 msgid "Pivot"
@@ -16563,8 +16563,8 @@ msgstr "Público"
 msgid "Public RSS feed"
 msgid_plural "Public RSS feeds"
 msgstr[0] "Feed RSS público"
-msgstr[1] "Feed RSS públicos"
-msgstr[2] "Feed RSS públicos"
+msgstr[1] "Feeds RSS públicos"
+msgstr[2] "Feeds RSS públicos"
 
 #: src/CommonITILTask.php:786
 msgid "Public followup"
@@ -17345,14 +17345,14 @@ msgstr "Pedido enviado a"
 #: src/RequestType.php:41
 msgid "Request source"
 msgid_plural "Request sources"
-msgstr[0] "Fonte do pedido"
-msgstr[1] "Fontes do pedido"
-msgstr[2] "Fontes do pedido"
+msgstr[0] "Origem do pedido"
+msgstr[1] "Origens do pedido"
+msgstr[2] "Origens do pedido"
 
 #: src/Item_SoftwareVersion.php:103 src/Item_SoftwareLicense.php:110
 msgctxt "software"
 msgid "Request source"
-msgstr "Fonte da solicitação"
+msgstr "Origem da solicitação"
 
 #: src/RequestType.php:73 src/RequestType.php:140
 msgid "Request source visible for followups"
@@ -17364,7 +17364,7 @@ msgstr "Origem da solicitação visível para tickets"
 
 #: src/Config.php:1458
 msgid "Request sources by default"
-msgstr "Fonte de pedido por defeito"
+msgstr "Origens do pedido por defeito"
 
 #: src/ObjectLock.php:323
 msgid "Request write on "
@@ -17598,7 +17598,7 @@ msgstr "Reponsável"
 
 #: src/RuleTicket.php:872
 msgid "Responsible of the requester"
-msgstr "Responsável do requerente"
+msgstr "Responsabilidade do requerente"
 
 #: src/Api/APIRest.php:51
 msgid "Rest API"
@@ -18098,7 +18098,7 @@ msgstr "Salvar como uma nova pesquisa"
 
 #: src/SavedSearch.php:923 js/modules/Search/GenericView.js:95
 msgid "Save current search"
-msgstr "Guardar pesquisa atual"
+msgstr "Guardar pesquisa actual"
 
 #: templates/password_form.html.twig
 msgid "Save new password"
@@ -18861,7 +18861,7 @@ msgstr "Pular regras restantes"
 #: src/Console/Migration/RacksPluginToCoreCommand.php:1308
 #, php-format
 msgid "Skipping item %s (%s) which is already linked to a rack."
-msgstr "Saltar item %s (%s) que já se encontra ligado a um bastidor."
+msgstr "Saltar item %s (%s) que já se encontra actual a um bastidor."
 
 #: src/System/RequirementsManager.php:170
 msgid "Slightly enhance performances."
@@ -19053,12 +19053,12 @@ msgstr[2] "Placas de som"
 
 #: templates/pages/admin/events_list.html.twig src/Event.php:300 src/Event.php:379 src/RuleImportEntity.php:137
 msgid "Source"
-msgstr "Fonte"
+msgstr "Origem"
 
 #: templates/components/itilobject/timeline/form_followup.html.twig src/ITILFollowup.php:907
 #: src/ITILFollowupTemplate.php:59 src/ITILFollowupTemplate.php:96
 msgid "Source of followup"
-msgstr "Fonte de acompanhamento"
+msgstr "Origem do acompanhamento"
 
 #: templates/pages/assets/rack.html.twig
 msgid "South"
@@ -19287,7 +19287,7 @@ msgstr "Assunto"
 
 #: templates/components/itilobject/selfservice.html.twig
 msgid "Submit message"
-msgstr "Submeter mensagem"
+msgstr "Submeter ticket"
 
 #: src/RuleLocation.php:75 src/RuleImportComputer.php:94 src/RuleImportEntity.php:112
 msgid "Subnet"
@@ -19670,7 +19670,7 @@ msgstr "Técnico"
 
 #: front/stat.tracking.php:114
 msgid "Technician as assigned"
-msgstr "Atribuído um técnico"
+msgstr "Atribuído a um técnico"
 
 #: src/RuleTicket.php:583 src/RuleTicket.php:758 src/CommonITILObject.php:4174 src/Dashboard/Filter.php:71
 msgid "Technician group"
@@ -19679,11 +19679,11 @@ msgstr "Grupo de técnicos"
 #: src/Appliance.php:181 src/CommonITILTask.php:939 src/DomainRecord.php:121 src/DomainRecord.php:454
 #: src/Domain_Item.php:525 src/Domain.php:122 src/Domain.php:166 src/DatabaseInstance.php:424
 msgid "Technician in charge"
-msgstr "Técnico responsável"
+msgstr "Técnico encarregado"
 
 #: src/NotificationTargetCertificate.php:56
 msgid "Technician in charge of the certificate"
-msgstr "Técnico responsável pelo certificado"
+msgstr "Técnico encarregado do certificado"
 
 #: src/NotificationTargetDomain.php:50
 msgid "Technician in charge of the domain"
@@ -19698,23 +19698,23 @@ msgstr "Técnico encarregado do domínio"
 #: src/NotificationTargetReservation.php:56 src/NotificationTargetReservation.php:181 src/CommonDBTM.php:3426
 #: src/Printer.php:601
 msgid "Technician in charge of the hardware"
-msgstr "Técnico responsável pelo hardware"
+msgstr "Técnico encarregado do hardware"
 
 #: src/SoftwareLicense.php:470
 msgid "Technician in charge of the license"
-msgstr "Técnico responsável pela licença"
+msgstr "Técnico encarregado da licença"
 
 #: src/Software.php:440
 msgid "Technician in charge of the software"
-msgstr "Técnico responsável pelo software"
+msgstr "Técnico encarregado do software"
 
 #: src/NotificationTargetCommonITILObject.php:871 src/NotificationTargetPlanningRecall.php:55
 msgid "Technician in charge of the task"
-msgstr "Técnico responsável pela tarefa"
+msgstr "Técnico encarregado da tarefa"
 
 #: src/NotificationTargetCommonITILObject.php:851
 msgid "Technician in charge of the ticket"
-msgstr "Técnico responsável pelo ticket"
+msgstr "Técnico encarregado da ticket"
 
 #: front/stat.tracking.php:116
 msgid "Technician in tasks"
@@ -19936,7 +19936,7 @@ msgstr "O conteúdo do item"
 
 #: src/Update.php:178
 msgid "The database schema is not consistent with the current GLPI version."
-msgstr "O esquema da base de dados não é consistente com a versão atual do GLPI."
+msgstr "O esquema da base de dados não é consistente com a versão actual do GLPI."
 
 #: src/Console/Database/UpdateCommand.php:274
 #, php-format
@@ -20036,7 +20036,7 @@ msgstr "O login não é válido. Não foi possivel actualizar login."
 
 #: front/updatepassword.php:71
 msgid "The new password must be different from current password"
-msgstr "A nova palavra-passe deve ser diferente da palavra-passe atual"
+msgstr "A nova palavra-passe deve ser diferente da palavra-passe actual"
 
 #: src/PDU_Rack.php:495
 msgid "The pdu will be"
@@ -20373,9 +20373,9 @@ msgstr "Localização do ticket"
 #: src/Ticket.php:5585
 msgid "Ticket on linked items"
 msgid_plural "Tickets on linked items"
-msgstr[0] "Ticket em item ligado"
-msgstr[1] "Tickets em itens ligados"
-msgstr[2] "Tickets em itens ligados"
+msgstr[0] "Ticket em item relacionado"
+msgstr[1] "Tickets em itens relacionados"
+msgstr[2] "Tickets em itens relacionados"
 
 #: src/NotificationTargetTicket.php:147
 msgid "Ticket solved"
@@ -20631,7 +20631,7 @@ msgstr "Para evitar sobrescrever uma ramificação potencial em desenvolvimento,
 
 #: src/Ticket.php:6162
 msgid "To be in charge of a ticket"
-msgstr "Ficar responsável por um ticket"
+msgstr "Ficar encarregado de um ticket"
 
 #: src/RuleDictionnarySoftware.php:112 src/RuleRight.php:358 src/RuleDictionnaryPrinter.php:103
 #: src/RuleImportComputer.php:125 src/RuleSoftwareCategory.php:106
@@ -21592,9 +21592,9 @@ msgstr "Actualização (actor)"
 #: src/AutoUpdateSystem.php:40
 msgid "Update Source"
 msgid_plural "Update Sources"
-msgstr[0] "Actualizar fonte"
-msgstr[1] "Actualizar fontes"
-msgstr[2] "Actualizar fontes"
+msgstr[0] "Actualizar origem"
+msgstr[1] "Actualizar origens"
+msgstr[2] "Actualizar origens"
 
 #: src/Log.php:1028
 msgid "Update a field"
@@ -22386,27 +22386,27 @@ msgstr "Data de início da visibilidade"
 
 #: src/ITILCategory.php:118 src/ITILCategory.php:237
 msgid "Visible for a change"
-msgstr "Visivel para uma alteração"
+msgstr "Visível para uma alteração"
 
 #: src/ITILCategory.php:107 src/ITILCategory.php:229
 msgid "Visible for a problem"
-msgstr "Visivel para um problema"
+msgstr "Visível para um problema"
 
 #: src/ITILCategory.php:96 src/ITILCategory.php:221
 msgid "Visible for a request"
-msgstr "Visivel para um pedido"
+msgstr "Visível para um pedido"
 
 #: src/ITILCategory.php:90 src/ITILCategory.php:213
 msgid "Visible for an incident"
-msgstr "Visivel para um incidente"
+msgstr "Visível para um incidente"
 
 #: src/Group.php:286
 msgid "Visible in a project"
-msgstr "Visivel num projecto"
+msgstr "Visível em um projecto"
 
 #: src/Group.php:254
 msgid "Visible in a ticket"
-msgstr "Visivel num ticket"
+msgstr "Visível em um ticket"
 
 #: src/ITILCategory.php:84 src/ITILCategory.php:245
 msgid "Visible in the simplified interface"
@@ -22414,11 +22414,11 @@ msgstr "Visível no interface simplificado"
 
 #: src/KnowbaseItem.php:926
 msgid "Visible since"
-msgstr "Visivel desde"
+msgstr "Visível desde"
 
 #: src/KnowbaseItem.php:932
 msgid "Visible until"
-msgstr "Visivel até"
+msgstr "Visível até"
 
 #: src/DeviceBattery.php:65 src/DeviceBattery.php:91 src/DeviceBattery.php:122 src/DeviceSimcard.php:59
 #: src/DeviceSimcard.php:81
@@ -22477,7 +22477,7 @@ msgstr "Aviso: um e-mail não foi entregue a %s com %d restantes tentativas"
 
 #: templates/components/itilobject/timeline/form_solution.html.twig
 msgid "Warning: non closed children tickets depends on current ticket. Are you sure you want to close it?"
-msgstr "Aviso: Tickets descendentes não fechados dependem do ticket atual. Tem certeza de que deseja fechá-lo?"
+msgstr "Aviso: Tickets descendentes não fechados dependem do ticket actual. Tem certeza de que deseja fechá-lo?"
 
 #: src/ObjectLock.php:317
 msgid "Warning: read-only!"
@@ -22973,7 +22973,7 @@ msgstr "Você não pode eliminar esse item, porque contém sub-itens"
 
 #: src/MassiveAction.php:1486
 msgid "You can't delete that item, because it is used for one or more items"
-msgstr "Você não pode eliminar esse item, pois o mesmo é usado num ou mais itens"
+msgstr "Você não pode eliminar esse item, pois o mesmo é usado em um ou mais itens"
 
 #: src/Session.php:1639
 msgid "You can't impersonate yourself."
@@ -23469,7 +23469,7 @@ msgstr "não é CDR"
 
 #: src/NetworkPortInstantiation.php:692
 msgid "item not linked to an object"
-msgstr "item não se encontra ligado a um objecto"
+msgstr "item não se encontra relacionado a um objecto"
 
 #: src/Api/APIXmlrpc.php:160
 msgid "itemtype not found or not an instance of CommonDBTM"

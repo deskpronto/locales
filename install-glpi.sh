@@ -15,9 +15,12 @@ rm /tmp/glpi/locales/pt_PT.*
 mv /tmp/locales/pt_PT.* /tmp/glpi/locales/
 
 rm /tmp/glpi/pics/fd_logo.png
+rm /tmp/glpi/pics/favicon.ico
 rm /tmp/glpi/pics/login_logo_glpi.png
 rm /tmp/glpi/pics/logos/logo-GLPI*.*
+
 mv /tmp/locales/fd_logo.png         /tmp/glpi/pics
+mv /tmp/locales/favicon.ico         /tmp/glpi/pics
 mv /tmp/locales/login_logo_glpi.png /tmp/glpi/pics
 mv /tmp/locales/logo-GLPI*.*        /tmp/glpi/pics/logos
 
