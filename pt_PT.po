@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 16:01+0100\n"
+"PO-Revision-Date: 2022-07-14 16:29+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -11333,7 +11333,7 @@ msgstr "ID do item"
 
 #: src/CommonDBTM.php:4328
 msgid "Item in the trashbin"
-msgstr "Item na lixeira"
+msgstr "Item na reciclagem"
 
 #: src/Item_Rack.php:1007 src/PDU_Rack.php:153
 msgid "Item is out of rack bounds"
@@ -16621,13 +16621,13 @@ msgstr "A ação de remoção de ticket está desactivada."
 
 #: src/AuthLDAP.php:4019
 msgid "Put in trashbin"
-msgstr "Enviar para lixeira"
+msgstr "Enviar para reciclagem"
 
 #: templates/components/itilobject/footer.html.twig templates/components/form/buttons.html.twig
 #: src/MassiveAction.php:788 src/Transfer.php:3903 src/CommonDBTM.php:5276
 msgctxt "button"
 msgid "Put in trashbin"
-msgstr "Enviar para lixeira"
+msgstr "Enviar para reciclagem"
 
 #: src/CommonITILObject.php:5958
 #, php-format
@@ -17612,7 +17612,7 @@ msgstr "Restaurar"
 
 #: src/AuthLDAP.php:4036
 msgid "Restore (move out of trashbin)"
-msgstr "Restaurar da lixeira"
+msgstr "Restaurar da reciclagem"
 
 #: src/Log.php:1084 src/Config.php:3260
 msgid "Restore the item"
@@ -18759,7 +18759,7 @@ msgstr "Mostrar informação pessoal no formulário do novo ticket (interface si
 
 #: templates/components/search/controls.html.twig
 msgid "Show the trashbin"
-msgstr "Mostrar a lixeira"
+msgstr "Mostrar reciclagem"
 
 #: templates/components/pager.html.twig
 #, php-format
@@ -22463,7 +22463,8 @@ msgstr "Limite do status Aviso"
 #: src/RuleDictionnarySoftwareCollection.php:89
 msgid "Warning! This operation can put merged software in the trashbin.<br>Sure to notify your users."
 msgstr ""
-"Aviso! Esta operação pode colocar alguns softwares na lixeira. <br>Certifique-se que avisa os seus utilizadores."
+"Aviso! Esta operação pode colocar alguns softwares na reciclagem. <br>Certifique-se que avisa os seus "
+"utilizadores."
 
 #: src/AuthLDAP.php:1640
 msgid "Warning: The request exceeds the limit of the directory. The results are only partial."
@@ -22501,7 +22502,7 @@ msgstr "Informações da garantia"
 
 #: src/Inventory/Asset/Cartridge.php:59
 msgid "Waste bin"
-msgstr "Lixeira"
+msgstr "Reciclagem"
 
 #: templates/components/itilobject/selfservice.html.twig
 #: src/ContentTemplates/Parameters/CommonITILObjectParameters.php:77 src/Log.php:558 src/RuleTicket.php:596
