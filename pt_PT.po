@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 14:24+0100\n"
+"PO-Revision-Date: 2022-07-14 15:25+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -7593,11 +7593,11 @@ msgstr "Mostrar relatório"
 
 #: src/Config.php:524
 msgid "Display source dropdown on login page"
-msgstr "Mostrar origem do menu de seleção na página de login"
+msgstr "Mostrar lista suspensa de origem na página de login"
 
 #: src/Config.php:1221
 msgid "Display the complete name in tree dropdowns"
-msgstr "Mostrar o nome completo nos menus de seleção em modo de árvore"
+msgstr "Mostrar o nome completo nas listas suspensas em modo de árvore"
 
 #: src/Console/Application.php:156
 msgid "Display this application version"
@@ -7842,7 +7842,7 @@ msgstr "Domínios expirados"
 
 #: src/Config.php:429
 msgid "Don't show search engine in dropdowns if the number of items is less than"
-msgstr "Não mostra motor de pesquisa nos Menus de seleção se o número de itens é menor que"
+msgstr "Não mostrar motor de pesquisa nas listas suspensas se o número de itens for menor que"
 
 #: templates/components/itilobject/timeline/form_task.html.twig
 #: templates/components/itilobject/timeline/timeline.html.twig src/Planning.php:245 src/Planning.php:263
@@ -7919,9 +7919,9 @@ msgstr[2] "Unidades"
 #: src/Event.php:161 src/Profile.php:2442 src/CommonDropdown.php:70 front/stat.location.php:93
 msgid "Dropdown"
 msgid_plural "Dropdowns"
-msgstr[0] "Menu de seleção"
-msgstr[1] "Menus de seleção"
-msgstr[2] "Menus de seleção"
+msgstr[0] "Lista suspensa"
+msgstr[1] "Listas suspensas"
+msgstr[2] "Listas suspensas"
 
 #: templates/pages/setup/dropdowns_list.html.twig
 msgid "Dropdown with entity management"
@@ -7929,7 +7929,7 @@ msgstr "Lista suspensa com gestão de entidades"
 
 #: src/Profile.php:1839 src/Profile.php:1851 src/Profile.php:2662
 msgid "Dropdowns dictionary"
-msgstr "Dicionário dos menus de seleção"
+msgstr "Dicionário das listas suspensas"
 
 #: src/Inventory/Asset/Cartridge.php:57
 msgid "Drum"
@@ -8512,7 +8512,7 @@ msgstr "Entidade baseada no perfil de utilizador"
 
 #: src/Profile.php:1931
 msgid "Entity dropdowns"
-msgstr "Menus de seleção de entidades"
+msgstr "Listas suspensas de entidades"
 
 #. TRANS: software in plural
 #: src/Entity.php:1345 src/Entity.php:1848
@@ -9304,7 +9304,7 @@ msgstr "Primeiro nome de utilizador que bloqueou"
 #: install/migrations/update_9.4.0_to_9.4.1.php:93 install/migrations/update_9.4.1_to_9.4.2.php:73
 #: install/migrations/update_9.4.2_to_9.4.3.php:56
 msgid "Fix URL of images in ITIL tasks, followups and solutions."
-msgstr "Corrija o URL das imagens nas tarefas ITIL, acompanhamentos e soluções."
+msgstr "Corrija o URL das imagens nas tarefas, acompanhamentos e soluções."
 
 #: src/Console/Database/AbstractConfigureCommand.php:469 src/Console/Migration/TimestampsCommand.php:221
 #, php-format
@@ -9734,9 +9734,9 @@ msgstr "Visualização global"
 #: src/Profile.php:1928
 msgid "Global dropdown"
 msgid_plural "Global dropdowns"
-msgstr[0] "Menu de seleção global"
-msgstr[1] "Menus de seleção globais"
-msgstr[2] "Menus de seleção globais"
+msgstr[0] "Lista suspensa global"
+msgstr[1] "Listas suspensas globais"
+msgstr[2] "Listas suspensas globais"
 
 #: src/Peripheral.php:380 src/Dropdown.php:2313 src/Dropdown.php:2338 src/Dropdown.php:2350 src/Dropdown.php:2352
 #: src/Dropdown.php:2421 src/Phone.php:468 src/Monitor.php:459 src/Printer.php:640
@@ -10176,21 +10176,21 @@ msgstr "Endereço IPv6"
 
 #: src/Profile.php:1321
 msgid "ITIL Templates"
-msgstr "Modelos ITIL"
+msgstr "Modelos"
 
 #: src/ITILCategory.php:311
 msgid "ITIL category"
 msgid_plural "ITIL categories"
-msgstr[0] "Categoria ITIL"
-msgstr[1] "Categorias ITIL"
-msgstr[2] "Categorias ITIL"
+msgstr[0] "Categoria"
+msgstr[1] "Categorias"
+msgstr[2] "Categorias"
 
 #: src/Profile.php:1367
 msgid "ITIL object"
 msgid_plural "ITIL objects"
-msgstr[0] "Objecto ITIL"
-msgstr[1] "Objectos ITIL"
-msgstr[2] "Objectos ITIL"
+msgstr[0] "Objecto"
+msgstr[1] "Objectos"
+msgstr[2] "Objectos"
 
 #: src/Planning.php:1055
 msgid "Ical"
@@ -10308,7 +10308,7 @@ msgstr "Se o item representa um marco ou não"
 
 #: src/CommonDropdown.php:594
 msgid "If you confirm the deletion, all uses of this dropdown will be blanked."
-msgstr "Se confirmar a eliminação, todas as funcionalidades deste menu de seleção ficarão vazias."
+msgstr "Se confirmar a eliminação, todas as funcionalidades desta lista suspensa ficarão vazias."
 
 #: src/ITILFollowup.php:503
 msgid "If you reject the solution, you must specify a reason"
@@ -10733,7 +10733,7 @@ msgstr "Infinito"
 #: js/misc.js:45
 msgid "Information"
 msgid_plural "Information"
-msgstr[0] "Informaçao"
+msgstr[0] "Informação"
 msgstr[1] "Informações"
 msgstr[2] "Informações"
 
@@ -11333,7 +11333,7 @@ msgstr "ID do item"
 
 #: src/CommonDBTM.php:4328
 msgid "Item in the trashbin"
-msgstr "Item na reciclagem"
+msgstr "Item na lixeira"
 
 #: src/Item_Rack.php:1007 src/PDU_Rack.php:153
 msgid "Item is out of rack bounds"
@@ -11441,9 +11441,9 @@ msgstr "Itemtype::name of task to unlock (e.g: \"MailCollector::mailgate\")"
 #: src/Itil_Project.php:90
 msgid "Itil item"
 msgid_plural "Itil items"
-msgstr[0] "Item de ITIL"
-msgstr[1] "Itens de ITIL"
-msgstr[2] "Itens de ITIL"
+msgstr[0] "Item"
+msgstr[1] "Itens"
+msgstr[2] "Itens"
 
 #: src/Toolbox.php:2144 src/Features/PlanningEvent.php:814
 msgid "January"
@@ -15318,7 +15318,7 @@ msgstr "Tamanho da página"
 
 #: src/Config.php:417
 msgid "Page size for dropdown (paging using scroll)"
-msgstr "Tamanho de menu de seleção"
+msgstr "Tamanho da lista suspensa"
 
 #: templates/components/form/flags.html.twig src/Printer.php:483
 msgid "Parallel"
@@ -16621,13 +16621,13 @@ msgstr "A ação de remoção de ticket está desactivada."
 
 #: src/AuthLDAP.php:4019
 msgid "Put in trashbin"
-msgstr "Enviar para reciclagem"
+msgstr "Enviar para lixeira"
 
 #: templates/components/itilobject/footer.html.twig templates/components/form/buttons.html.twig
 #: src/MassiveAction.php:788 src/Transfer.php:3903 src/CommonDBTM.php:5276
 msgctxt "button"
 msgid "Put in trashbin"
-msgstr "Enviar para reciclagem"
+msgstr "Enviar para lixeira"
 
 #: src/CommonITILObject.php:5958
 #, php-format
@@ -17612,7 +17612,7 @@ msgstr "Restaurar"
 
 #: src/AuthLDAP.php:4036
 msgid "Restore (move out of trashbin)"
-msgstr "Restaurar (sair da lixeira)"
+msgstr "Restaurar da lixeira"
 
 #: src/Log.php:1084 src/Config.php:3260
 msgid "Restore the item"
@@ -18759,7 +18759,7 @@ msgstr "Mostrar informação pessoal no formulário do novo ticket (interface si
 
 #: templates/components/search/controls.html.twig
 msgid "Show the trashbin"
-msgstr "Mostrar a reciclagem"
+msgstr "Mostrar a lixeira"
 
 #: templates/components/pager.html.twig
 #, php-format
@@ -20907,7 +20907,7 @@ msgstr "Redefinição do cache de tradução bem-sucedida"
 
 #: src/Config.php:398
 msgid "Translation of dropdowns"
-msgstr "Tradução dos Menus de seleção"
+msgstr "Tradução das listas suspensas"
 
 #: src/Config.php:406
 msgid "Translation of reminders"
@@ -22463,8 +22463,7 @@ msgstr "Limite do status Aviso"
 #: src/RuleDictionnarySoftwareCollection.php:89
 msgid "Warning! This operation can put merged software in the trashbin.<br>Sure to notify your users."
 msgstr ""
-"Aviso! Esta operação pode colocar algum software utilizado, na reciclagem. <br>Certifique-se que avisa os seus "
-"utilizadores."
+"Aviso! Esta operação pode colocar alguns softwares na lixeira. <br>Certifique-se que avisa os seus utilizadores."
 
 #: src/AuthLDAP.php:1640
 msgid "Warning: The request exceeds the limit of the directory. The results are only partial."
@@ -22502,7 +22501,7 @@ msgstr "Informações da garantia"
 
 #: src/Inventory/Asset/Cartridge.php:59
 msgid "Waste bin"
-msgstr "Reciclagem"
+msgstr "Lixeira"
 
 #: templates/components/itilobject/selfservice.html.twig
 #: src/ContentTemplates/Parameters/CommonITILObjectParameters.php:77 src/Log.php:558 src/RuleTicket.php:596
@@ -22914,7 +22913,7 @@ msgstr "Você está usando uma versão de pré-lançamento, tenha cuidado!"
 
 #: src/CommonDropdown.php:608
 msgid "You can also replace all uses of this dropdown by another."
-msgstr "Você pode também substituir as funcionalidades deste Menu de seleção por outro Menu de seleção."
+msgstr "Você também pode substituir as funcionalidades desta lista suspensa por outra lista suspensa."
 
 #: src/Transfer.php:4105
 msgid "You can continue to add elements to be transferred or execute the transfer now"
@@ -23452,7 +23451,7 @@ msgstr "já está presente no GLPI"
 
 #: src/RuleImportAsset.php:284
 msgid "is empty"
-msgstr "está vazío"
+msgstr "está vazio"
 
 #: src/RuleImportComputer.php:191
 msgid "is empty in GLPI"
