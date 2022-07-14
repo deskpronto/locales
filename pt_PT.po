@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 13:53+0100\n"
+"PO-Revision-Date: 2022-07-14 14:06+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -9299,7 +9299,7 @@ msgstr "Primeiro/último endereço: %1$s/%2$s"
 
 #: src/NotificationTargetObjectLock.php:66
 msgid "Firstname of locking user"
-msgstr "Primeiro nome do utilizador que bloqueou"
+msgstr "Primeiro nome de utilizador que bloqueou"
 
 #: install/migrations/update_9.4.0_to_9.4.1.php:93 install/migrations/update_9.4.1_to_9.4.2.php:73
 #: install/migrations/update_9.4.2_to_9.4.3.php:56
@@ -11849,7 +11849,7 @@ msgstr "Último a actualizar"
 
 #: src/NotificationTargetObjectLock.php:65
 msgid "Lastname of locking user"
-msgstr "Último nome do utilizador que bloqueou"
+msgstr "Último nome de utilizador que bloqueou"
 
 #: src/Stat.php:536 src/Stat/Data/Graph/StatDataTicketAverageTime.php:61
 #: src/Stat/Data/Sglobal/StatDataTicketNumber.php:64 src/Dashboard/Provider.php:1094
@@ -13439,7 +13439,7 @@ msgstr "Nome"
 #: src/Console/Plugin/InstallCommand.php:82
 msgid "Name of user used during installation script (among other things to set plugin admin rights)"
 msgstr ""
-"Nome do utilizador usado durante o script de instalação (entre outras coisas para definir os direitos de "
+"Nome de utilizador usado durante o script de instalação (entre outras coisas para definir os direitos de "
 "administrador do plugin)"
 
 #: src/NotificationMailingSetting.php:101
