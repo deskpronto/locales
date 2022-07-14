@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 14:06+0100\n"
+"PO-Revision-Date: 2022-07-14 14:24+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -5877,7 +5877,7 @@ msgstr[2] "Tipos de contacto"
 
 #: src/KnowbaseItem_Comment.php:180 src/KnowbaseItem_Comment.php:214 src/ObjectLock.php:163
 msgid "Contact your GLPI admin!"
-msgstr "Contacte o seu administrador de GLPI !"
+msgstr "Contacte o seu administrador do GLPI!"
 
 #: templates/anonymous_helpdesk.html.twig src/BlacklistedMailContent.php:73 src/BlacklistedMailContent.php:90
 #: src/ContentTemplates/Parameters/KnowbaseItemParameters.php:70 src/TaskTemplate.php:60 src/TaskTemplate.php:99
@@ -9590,7 +9590,7 @@ msgstr "Kit fusor"
 
 #: src/CronTask.php:911 src/RuleImportEntity.php:154 src/Plugin.php:1840
 msgid "GLPI"
-msgstr "GLPI"
+msgstr "SUPORTE"
 
 #: front/config.form.php:79
 msgid "GLPI cache reset successful"
