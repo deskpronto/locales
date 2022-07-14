@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 15:25+0100\n"
+"PO-Revision-Date: 2022-07-14 15:50+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -427,7 +427,7 @@ msgstr "%1$s foi redefinido."
 #: src/Config.php:1881
 #, php-format
 msgid "%1$s hits rate is correct"
-msgstr "%1$staxa de hits está correta"
+msgstr "%1$staxa de hits está correcta"
 
 #: src/Config.php:1878
 #, php-format
@@ -455,7 +455,7 @@ msgstr "%1$s ligou-se do IP %2$s"
 #: src/Config.php:1862
 #, php-format
 msgid "%1$s memory usage is correct"
-msgstr "%1$suso da memória está correto"
+msgstr "%1$suso da memória está correcto"
 
 #: src/Config.php:1859
 #, php-format
@@ -523,7 +523,7 @@ msgstr "%1$s páginas restantes"
 #: src/Config.php:1894
 #, php-format
 msgid "%1$s restart rate is correct"
-msgstr "%1$s taxa de reinício está correta"
+msgstr "%1$s taxa de reinício está correcta"
 
 #: src/Config.php:1891
 #, php-format
@@ -2007,7 +2007,7 @@ msgstr "Uma extensão PHP parou o envio do ficheiro"
 #: src/NotificationAjax.php:103
 #, php-format
 msgid "A browser notification to %s was added to queue"
-msgstr "Uma notificação do browser para %s foi adicionada à fila"
+msgstr "Uma notificação do browser para %s foi adicionada a fila"
 
 #: src/Item_Cluster.php:308
 msgid "A cluster is required"
@@ -2181,11 +2181,11 @@ msgstr "Acesso negado"
 
 #: src/System/Requirement/DbTimezones.php:63
 msgid "Access to timezone database (mysql) is not allowed."
-msgstr "Não é permitido o acesso à base de dados de fuso horário (mysql)."
+msgstr "Não é permitido o acesso a base de dados de fuso horário (mysql)."
 
 #: src/System/Requirement/DbTimezones.php:75
 msgid "Access to timezone table (mysql.time_zone_name) is not allowed."
-msgstr "Não é permitido o acesso à tabela de fuso horário (mysql.time_zone_name)"
+msgstr "Não é permitido o acesso a tabela de fuso horário (mysql.time_zone_name)"
 
 #: src/NotificationTargetUser.php:189
 msgid "Account lock date if password is not changed"
@@ -2388,7 +2388,7 @@ msgstr "Adicionar um contrato"
 
 #: src/NetworkPortMigration.php:261
 msgid "Add a correct IP to the network port"
-msgstr "Adiciona um IP correcto à porta de rede"
+msgstr "Adiciona um IP correcto a porta de rede"
 
 #: src/RuleCriteria.php:725 src/RuleCriteria.php:727
 msgid "Add a criterion"
@@ -2563,7 +2563,7 @@ msgstr "Adicionar uma tarefa"
 
 #: src/ProjectTask.php:1512 src/Project.php:1782
 msgid "Add a team member"
-msgstr "Adicionar um membro à equipa"
+msgstr "Adicionar um membro a equipa"
 
 #: src/Notification_NotificationTemplate.php:138
 msgid "Add a template"
@@ -2757,7 +2757,7 @@ msgstr "Adicionar modelo de notificação"
 #: install/migrations/update_9.1.x_to_9.2.0.php:139 install/migrations/update_9.1.x_to_9.2.0.php:186
 #, php-format
 msgid "Add of - %s to database"
-msgstr "Adicionar -%s à base de dados"
+msgstr "Adicionar -%s a base de dados"
 
 #: src/Impact.php:1113
 msgid "Add relation"
@@ -2803,7 +2803,7 @@ msgstr "Adicionar ao calendário"
 #: src/MassiveAction.php:702
 msgctxt "button"
 msgid "Add to transfer list"
-msgstr "Adicionar à lista de transferencias"
+msgstr "Adicionar à lista de transferências"
 
 #: src/User.php:2223
 msgid "Add user..."
@@ -2850,7 +2850,7 @@ msgstr "Cabeçalhos adicionais"
 
 #: src/Console/Plugin/InstallCommand.php:69
 msgid "Additionnal parameters to pass to the plugin install hook function"
-msgstr "Parâmetros adicionais para passar à função de instalação do plugin"
+msgstr "Parâmetros adicionais para passar a função de instalação do plugin"
 
 #: templates/generic_show_form.html.twig src/ContentTemplates/Parameters/SupplierParameters.php:70
 #: src/Location.php:62 src/Location.php:142 src/Location.php:255 src/Location.php:309 src/Supplier.php:176
@@ -3135,7 +3135,7 @@ msgstr "A memória alocada é ilimitada."
 
 #: src/Config.php:351
 msgid "Allow FAQ anonymous access"
-msgstr "Permitir acesso anónimo às FAQ"
+msgstr "Permitir acesso anónimo as FAQ"
 
 #: templates/pages/management/softwarelicense.html.twig src/SoftwareLicense.php:443
 msgid "Allow Over-Quota"
@@ -3386,7 +3386,7 @@ msgstr "Status qualquer da solução"
 #: src/NetworkPortMigration.php:241
 #, php-format
 msgid "Append a correct gateway to the network %s"
-msgstr "Adicione um endereço de gateway correto à rede %s"
+msgstr "Adicione um endereço de gateway correcto a rede %s"
 
 #: src/Appliance.php:66
 msgid "Appliance"
@@ -3533,9 +3533,9 @@ msgstr "A guardar o ficheiro de registos: %1$s para %2$s"
 #: src/MassiveAction.php:1270
 msgid "Are you sure you want to add this item to transfer list?"
 msgid_plural "Are you sure you want to add these items to transfer list?"
-msgstr[0] "Tem a certeza que quer adicionar este item à lista de transferência?"
-msgstr[1] "Tem a certeza que quer adicionar estes itens à lista de transferência?"
-msgstr[2] "Tem a certeza que quer adicionar estes itens à lista de transferência?"
+msgstr[0] "Tem a certeza que quer adicionar este item a lista de transferência?"
+msgstr[1] "Tem a certeza que quer adicionar estes itens a lista de transferência?"
+msgstr[2] "Tem a certeza que quer adicionar estes itens a lista de transferência?"
 
 #: js/dashboard.js:903
 #, javascript-format
@@ -3731,7 +3731,7 @@ msgstr "Associar Certificado"
 
 #: templates/components/itilobject/actors/assign_to_me.html.twig
 msgid "Associate myself"
-msgstr "Associar à minha pessoa"
+msgstr "Associar a mim"
 
 #: src/User.php:3315 src/Group_User.php:197
 msgid "Associate to a group"
@@ -4329,7 +4329,7 @@ msgid ""
 "Besides, if you appreciate GLPI and its community, please take a minute to reference your organization by filling "
 "%1$s"
 msgstr ""
-"Além disso, se você aprecia o GLPI e sua comunidade, reserve um minuto para fazer referência à sua organização "
+"Além disso, se você aprecia o GLPI e sua comunidade, reserve um minuto para fazer referência a sua organização "
 "preenchendo %1$s"
 
 #: src/Marketplace/View.php:409
@@ -4636,12 +4636,12 @@ msgstr "Contexto de cache (i.e. 'core' ou 'plugin:plugin_name')"
 
 #: src/Console/Cache/DebugCommand.php:67
 msgid "Cache context to clear (i.e. 'core' or 'plugin:plugin_name')."
-msgstr "Contexto de cache à limpar (i.e. 'core' ou 'plugin:plugin_name')."
+msgstr "Contexto de cache a limpar (i.e. 'core' ou 'plugin:plugin_name')."
 
 #: src/Console/Cache/ClearCommand.php:74
 msgid "Cache context to clear (i.e. 'core' or 'plugin:plugin_name'). All contexts are cleared by default."
 msgstr ""
-"Contexto de cache à limpar (i.e. 'core' ou 'plugin:plugin_name'). Todos os contextos são limpos por defeito."
+"Contexto de cache a limpar (i.e. 'core' ou 'plugin:plugin_name'). Todos os contextos são limpos por defeito."
 
 #: src/Console/Cache/DebugCommand.php:89
 #, php-format
@@ -4655,7 +4655,7 @@ msgstr "Valor da chave de cache \"%s\":"
 
 #: src/Console/Cache/DebugCommand.php:60
 msgid "Cache key to debug."
-msgstr "Chave de cache à depurar."
+msgstr "Chave de cache a depurar."
 
 #: src/Console/Cache/ConfigureCommand.php:122
 msgid ""
@@ -4741,16 +4741,16 @@ msgstr "Não é possivel adicionar o intervalo no período existente"
 
 #: templates/install/step3.html.twig
 msgid "Can't connect to the database"
-msgstr "Não foi possível ligação à base de dados"
+msgstr "Não foi possível ligação a base de dados"
 
 #: src/NotificationTargetDBConnection.php:63
 msgid "Can't connect to the database."
-msgstr "Não é possível ligação à base de dados."
+msgstr "Não é possível ligação a base de dados."
 
 #: install/install.php:473
 msgid "Can't create the database connection file, please verify file permissions."
 msgstr ""
-"Não foi possível criar o ficheiro de ligação à base de dados, por favor verifique as suas permissões ao ficheiro."
+"Não foi possível criar o ficheiro de ligação a base de dados, por favor verifique as suas permissões ao ficheiro."
 
 #: src/CronTask.php:1070
 msgid "Can't get DB lock"
@@ -5161,7 +5161,7 @@ msgstr "Verificar a réplica de SQL"
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:124
 msgid "Check tokens related to \"DYNAMIC\" row format migration."
-msgstr "Verifique os tokens relacionados à migração do formato de linha \"DYNAMIC\"."
+msgstr "Verifique os tokens relacionados a migração do formato de linha \"DYNAMIC\"."
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:96
 msgid "Check tokens related to all databases migrations."
@@ -5169,20 +5169,20 @@ msgstr "Verifique os tokens relacionados a todas as migrações de bases de dado
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:103
 msgid "Check tokens related to migration from \"MyISAM\" to \"InnoDB\"."
-msgstr "Verifique os tokens relacionados à migração de \"MyISAM\" para \"InnoDB\"."
+msgstr "Verifique os tokens relacionados a migração de \"MyISAM\" para \"InnoDB\"."
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:110
 msgid "Check tokens related to migration from \"datetime\" to \"timestamp\"."
-msgstr "Verifique os tokens relacionados à migração de \"datetime\" para \"timestamp\"."
+msgstr "Verifique os tokens relacionados a migração de \"datetime\" para \"timestamp\"."
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:117
 msgid "Check tokens related to migration from \"utf8\" to \"utf8mb4\"."
-msgstr "Verifique os tokens relacionados à migração de \"utf8\" para \"utf8mb4\"."
+msgstr "Verifique os tokens relacionados a migração de \"utf8\" para \"utf8mb4\"."
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:131
 msgid "Check tokens related to migration from signed to unsigned integers in primary/foreign keys."
 msgstr ""
-"Verifique os tokens relacionados à migração de inteiros assinados para não assinados em chaves primárias/"
+"Verifique os tokens relacionados a migração de inteiros assinados para não assinados em chaves primárias/"
 "estrangeiras."
 
 #: templates/components/itilobject/selfservice.html.twig
@@ -6617,7 +6617,7 @@ msgstr "Nome da base de dados:"
 
 #: src/Console/Database/AbstractConfigureCommand.php:119
 msgid "Database password (will be prompted for value if option passed without value)"
-msgstr "Palavra-passe da base de dados (ser-lhe-à perguntado valor se optou por não colocar nada no campo)"
+msgstr "Palavra-passe da base de dados (ser-lhe-a perguntado valor se optou por não colocar nada no campo)"
 
 #: src/Console/Database/AbstractConfigureCommand.php:158
 msgid "Database password:"
@@ -6662,7 +6662,7 @@ msgstr "Utilizador da base de dados:"
 #: src/Config.php:2735
 #, php-format
 msgid "Database version seems correct (%s) - Perfect!"
-msgstr "A versão da base de dados parece correta (%s) - Perfeito!"
+msgstr "A versão da base de dados parece correcta (%s) - Perfeito!"
 
 #: templates/pages/admin/events_list.html.twig templates/components/logs.html.twig src/CommonITILTask.php:777
 #: src/CommonITILTask.php:994 src/Csv/LogCsvExport.php:74 src/NotificationTargetTicket.php:692
@@ -8842,7 +8842,7 @@ msgstr "Domínios expirados ou a expirar"
 
 #: src/NotificationTargetDomain.php:111
 msgid "Expired or expiring domains (deprecated; contains only one element)"
-msgstr "Domínios expirados ou à expirar (obsoleto; contém apenas um elemento)"
+msgstr "Domínios expirados ou a expirar (obsoleto; contém apenas um elemento)"
 
 #: src/NotificationTargetDomain.php:42 src/NotificationTargetDomain.php:78
 msgid "Expiring domains"
@@ -9811,7 +9811,7 @@ msgstr "Vista de grupo"
 
 #: src/NotificationTargetCommonITILObject.php:1818
 msgid "Group assigned to task"
-msgstr "Grupo atribuído à tarefa"
+msgstr "Grupo atribuído a tarefa"
 
 #: src/AuthLDAP.php:818 src/AuthLDAP.php:1252
 msgid "Group attribute containing its users"
@@ -10234,7 +10234,7 @@ msgstr "Se monitores já não são usados"
 
 #: src/MailCollector.php:240
 msgid "If name is a valid email address, it will be automatically added to blacklisted senders."
-msgstr "Se o nome é um endereço de e-mail válido, este será adicionado automaticamente à lista negra de remetentes."
+msgstr "Se o nome é um endereço de e-mail válido, este será adicionado automaticamente a lista negra de remetentes."
 
 #: src/NotificationMailingSetting.php:255
 msgid "If not set, main administrator email will be used."
@@ -10708,7 +10708,7 @@ msgstr "Itens incompatíveis"
 
 #: front/updatepassword.php:62
 msgid "Incorrect password"
-msgstr "Palavra-passe incorreta"
+msgstr "Palavra-passe incorrecta"
 
 #: src/Auth.php:157 src/Auth.php:290 src/Auth.php:477
 msgid "Incorrect username or password"
@@ -11073,7 +11073,7 @@ msgstr "Frequência inválida. Tem de ser maior que a criação preliminar."
 
 #: src/IPNetwork.php:436
 msgid "Invalid gateway address"
-msgstr "Endereço de gateway incorreto"
+msgstr "Endereço de gateway incorrecto"
 
 #: src/IPNetwork.php:343
 msgid "Invalid input format for the network"
@@ -11897,7 +11897,7 @@ msgstr "Executar"
 
 #: src/APIClient.php:229
 msgid "Leave these parameters empty to disable API access restriction"
-msgstr "Deixe estes parâmetros em branco para desativar a restrição de acesso à API"
+msgstr "Deixe estes parâmetros em branco para desativar a restrição de acesso a API"
 
 #: src/Item_Rack.php:669 src/PDU_Rack.php:673
 msgid "Left"
@@ -12581,7 +12581,7 @@ msgstr "Tornar indisponível"
 
 #: src/Api/API.php:1575
 msgid "Malformed search criteria"
-msgstr "Critérios de pesquisa incorretos"
+msgstr "Critérios de pesquisa incorrectos"
 
 #: src/Knowbase.php:69
 msgctxt "button"
@@ -12914,7 +12914,7 @@ msgstr "Fundir actores"
 
 #: src/ITILTemplate.php:522 src/CommonDropdown.php:808
 msgid "Merge and assign to current entity"
-msgstr "Fundir e atribuir à entidade actual"
+msgstr "Fundir e atribuir a entidade actual"
 
 #: src/Ticket.php:2516
 msgid "Merge as Followup"
@@ -13977,7 +13977,7 @@ msgstr "Nenhum descrição"
 
 #: src/AuthLDAP.php:3815
 msgid "No directory associated to entity: impossible search"
-msgstr "Não existe directório associado à entidade: procura impossível"
+msgstr "Não existe directório associado a entidade: procura impossível"
 
 #: src/AuthLDAP.php:3811
 msgid "No directory selected"
@@ -16024,7 +16024,7 @@ msgstr "Directório de plugins"
 #, php-format
 msgid "Plugin list may be truncated due to %s services website unavailability. Please try again later."
 msgstr ""
-"A lista de plugins pode estar truncada devido à indisponibilidade do site de serviços %s. Por favor, tente "
+"A lista de plugins pode estar truncada devido a indisponibilidade do site de serviços %s. Por favor, tente "
 "novamente mais tarde."
 
 #: src/Console/Migration/RacksPluginToCoreCommand.php:318
@@ -17629,7 +17629,7 @@ msgstr "Restringe o campo %s para autenticação x509 (separador $)"
 
 #: src/RuleImportAsset.php:192
 msgid "Restrict criteria to same network port"
-msgstr "Restringir critérios à mesma porta de rede"
+msgstr "Restringir critérios a mesma porta de rede"
 
 #: src/Config.php:583
 msgid "Restrict device management"
@@ -18007,7 +18007,7 @@ msgstr "Servidor do SQL: %1$s, diferença entre principal e réplica: %2$s"
 #: src/DBConnection.php:651
 #, php-format
 msgid "SQL server: %s can't connect to the database"
-msgstr "Servidor do SQL: %s não consegue ligar à base de dados"
+msgstr "Servidor do SQL: %s não consegue ligar a base de dados"
 
 #: templates/install/step2.html.twig src/Config.php:811
 msgid "SQL user"
@@ -18090,7 +18090,7 @@ msgstr "Guardar"
 #: templates/components/itilobject/timeline/form_followup.html.twig front/change.form.php:214
 #: front/ticket.form.php:247 front/problem.form.php:215
 msgid "Save and add to the knowledge base"
-msgstr "Guardar e adicionar à base do conhecimento"
+msgstr "Guardar e adicionar a base do conhecimento"
 
 #: src/SavedSearch.php:502
 msgid "Save as a new search"
@@ -18551,7 +18551,7 @@ msgstr "Setembro"
 #: templates/components/form/flags.html.twig src/Appliance_Item.php:195 src/RefusedEquipment.php:190
 #: src/Printer.php:475
 msgid "Serial"
-msgstr "Interface série"
+msgstr "Serial"
 
 #: src/Unmanaged.php:109
 msgid "Serial Number"
@@ -18583,7 +18583,7 @@ msgstr "Número de série do sistema operativo"
 
 #: js/planning.js:364 js/planning.js:486 js/planning.js:529
 msgid "Serie"
-msgstr "Serie"
+msgstr "Série"
 
 #: src/AuthLDAP.php:428 src/AuthLDAP.php:1041 src/AuthMail.php:121 src/Toolbox.php:1796 src/AuthLdapReplicate.php:93
 #: src/Config.php:2175
@@ -18755,7 +18755,7 @@ msgstr "Mostrar tickets em andamento para este item"
 
 #: src/Config.php:1008
 msgid "Show personnal information in new ticket form (simplified interface)"
-msgstr "Mostrar informação pessoal no formulário do novo ticket (interface simplificado)"
+msgstr "Mostrar informação pessoal no formulário do novo ticket (interface simplificada)"
 
 #: templates/components/search/controls.html.twig
 msgid "Show the trashbin"
@@ -18813,11 +18813,11 @@ msgstr "Modo simples"
 #: front/reservation.form.php:51 front/reservation.form.php:53 front/reservation.php:45
 #: front/tracking.injector.php:56 front/tracking.injector.php:58 front/reservationitem.php:41
 msgid "Simplified interface"
-msgstr "Interface simplificado"
+msgstr "Interface simplificada"
 
 #: src/Config.php:353
 msgid "Simplified interface help link"
-msgstr "Link de ajuda do interface simplificado"
+msgstr "Link de ajuda da interface simplificada"
 
 #: src/Telemetry.php:430 src/Console/Traits/TelemetryActivationTrait.php:101
 msgid ""
@@ -19103,7 +19103,7 @@ msgstr "Início"
 
 #: src/Config.php:366
 msgid "Standard interface help link"
-msgstr "Link de ajuda para a interface standard"
+msgstr "Link de ajuda"
 
 #: src/Inventory/Asset/Cartridge.php:193
 msgid "Staples"
@@ -19506,11 +19506,11 @@ msgstr "ficheiro de chave TLS"
 
 #: src/AuthLDAP.php:4513
 msgid "TLS certificate path is incorrect"
-msgstr "O caminho do certificado TLS está incorreto"
+msgstr "O caminho do certificado TLS está incorrecto"
 
 #: src/AuthLDAP.php:4525
 msgid "TLS key file path is incorrect"
-msgstr "O caminho do ficheiro de chave TLS está incorreto"
+msgstr "O caminho do ficheiro de chave TLS está incorrecto"
 
 #: src/DomainRecord.php:106 src/DomainRecord.php:473 src/DomainRecord.php:609
 msgid "TTL"
@@ -19562,7 +19562,7 @@ msgstr "Ter em conta tempo"
 
 #: templates/maintenance.html.twig
 msgid "Take me home"
-msgstr "Leve-me à casa"
+msgstr "Leve-me a casa"
 
 #: src/DomainRecord.php:610 src/RSSFeed.php:562 src/KnowbaseItem.php:267 src/KnowbaseItem.php:968
 #: src/Console/Database/UpdateCommand.php:161 src/Reminder.php:541
@@ -19818,7 +19818,7 @@ msgstr "Testar ligação para directório LDAP"
 
 #: templates/install/step3.html.twig
 msgid "Test of the connection at the database"
-msgstr "Teste de ligação à base de dados"
+msgstr "Teste de ligação a base de dados"
 
 #: src/RuleCollection.php:650 src/RuleCollection.php:656 src/RefusedEquipment.php:209 src/RefusedEquipment.php:214
 msgid "Test rules engine"
@@ -21089,7 +21089,7 @@ msgstr ""
 
 #: src/Console/AbstractCommand.php:101
 msgid "Unable to connect to database."
-msgstr "Não foi possível ligação à base de dados."
+msgstr "Não foi possível ligação a base de dados."
 
 #: src/System/Status/StatusChecker.php:354
 msgctxt "glpi_status"
@@ -21171,7 +21171,7 @@ msgstr "Não foi possível extrair o ficheiro do plugin."
 #, php-format
 msgid "Unable to fetch plugin list due to %s services website unavailability. Please try again later."
 msgstr ""
-"Não foi possível buscar a lista de plugins devido à indisponibilidade do site de serviços %s. Por favor, tente "
+"Não foi possível buscar a lista de plugins devido a indisponibilidade do site de serviços %s. Por favor, tente "
 "novamente mais tarde."
 
 #: src/GLPINetwork.php:230
@@ -21978,7 +21978,7 @@ msgstr "Utilizador DN"
 
 #: src/NotificationTargetCommonITILObject.php:1817
 msgid "User assigned to task"
-msgstr "Utilizador designado à tarefa"
+msgstr "Utilizador designado a tarefa"
 
 #: src/AuthLDAP.php:809 src/AuthLDAP.php:1234
 msgid "User attribute containing its groups"
@@ -22410,7 +22410,7 @@ msgstr "Visível em um ticket"
 
 #: src/ITILCategory.php:84 src/ITILCategory.php:245
 msgid "Visible in the simplified interface"
-msgstr "Visível no interface simplificado"
+msgstr "Visível na interface simplificada"
 
 #: src/KnowbaseItem.php:926
 msgid "Visible since"
@@ -23303,7 +23303,7 @@ msgstr "mas poderá fazê-lo pelo item"
 
 #: src/DBConnection.php:697
 msgid "can't connect to the database"
-msgstr "não foi possível ligação à base de dados"
+msgstr "não foi possível ligação a base de dados"
 
 #: templates/components/itilobject/selfservice.html.twig
 msgid "check it out!"
@@ -23811,7 +23811,7 @@ msgstr "versão"
 #: src/Api/API.php:2766
 #, php-format
 msgid "view documentation in your browser at %s"
-msgstr "aceda à documentação para o seu navegador em %s"
+msgstr "aceda a documentação para o seu navegador em %s"
 
 #: src/CommonDCModelDropdown.php:102 src/CommonDCModelDropdown.php:112
 msgid "watts"
