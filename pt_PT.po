@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-14 16:29+0100\n"
+"PO-Revision-Date: 2022-07-21 14:54+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -2007,7 +2007,7 @@ msgstr "Uma extensão PHP parou o envio do ficheiro"
 #: src/NotificationAjax.php:103
 #, php-format
 msgid "A browser notification to %s was added to queue"
-msgstr "Uma notificação do browser para %s foi adicionada a fila"
+msgstr "Uma notificação do navegador para %s foi adicionada a fila"
 
 #: src/Item_Cluster.php:308
 msgid "A cluster is required"
@@ -2172,7 +2172,7 @@ msgstr "Aceite"
 
 #: src/MailCollector.php:269 src/MailCollector.php:529
 msgid "Accepted mail archive folder (optional)"
-msgstr "Pasta de ficheiro de e-mails aceita (opcional)"
+msgstr "Pasta de e-mails aceitos (opcional)"
 
 #: src/Html.php:592 src/Html.php:594 src/Html.php:596 src/Html.php:922 src/Html.php:924 src/Html.php:926
 #: src/Html.php:931 src/CommonDBTM.php:6231 ajax/viewsubitem.php:60 ajax/timeline.php:122
@@ -3147,7 +3147,7 @@ msgstr "Permitir VOIP"
 
 #: src/Config.php:1016
 msgid "Allow anonymous followups (receiver)"
-msgstr "Autorizar acompanhamentos anónimos (receptor)"
+msgstr "Autorizar acompanhamentos anónimos"
 
 #: src/Config.php:1014
 msgid "Allow anonymous ticket creation (helpdesk.receiver)"
@@ -4423,7 +4423,7 @@ msgstr "Navegador"
 
 #: src/NotificationAjaxSetting.php:43
 msgid "Browser followups configuration"
-msgstr "Configuração de acompanhamentos do navegador"
+msgstr "Configuração de acompanhamentos pelo navegador"
 
 #: src/NotificationAjaxSetting.php:68
 msgid "Browser notification"
@@ -5157,7 +5157,7 @@ msgstr "Verifique o ficheiro .htaccess e a configuração do servidor web."
 
 #: src/DBConnection.php:617
 msgid "Check the SQL replica"
-msgstr "Verificar a réplica de SQL"
+msgstr "Verificar réplica do SQL"
 
 #: src/Console/Database/CheckSchemaIntegrityCommand.php:124
 msgid "Check tokens related to \"DYNAMIC\" row format migration."
@@ -5333,11 +5333,11 @@ msgstr "Limpar ficheiros órfãos de inventários"
 
 #: src/QueuedNotification.php:500
 msgid "Clean notification queue"
-msgstr "Limpe a fila de notificações"
+msgstr "Limpar a fila de notificações"
 
 #: src/CronTask.php:2063
 msgid "Clean old logs"
-msgstr "Apagar os registos antigos (logs)"
+msgstr "Apagar os registos antigos"
 
 #: src/Document.php:1817
 msgid "Clean orphaned documents"
@@ -5527,7 +5527,7 @@ msgstr "Colectar dados"
 
 #: src/MailCollector.php:312
 msgid "Collect only unread mail"
-msgstr "Importar apenas e-mail não lido"
+msgstr "Importar apenas e-mails não lidos"
 
 #: templates/pages/assets/cable.html.twig templates/impact/edit_compound_modal.html.twig
 #: src/PlanningEventCategory.php:48 src/Cable.php:248 src/ProjectState.php:59 src/ProjectState.php:80
@@ -6712,7 +6712,7 @@ msgstr[2] "Dias"
 
 #: src/QueuedNotification.php:501
 msgid "Days to keep sent emails"
-msgstr "Numero de dias a manter sobre emails enviados"
+msgstr "Numero de dias a manter sobre e-mails enviados"
 
 #: src/User.php:3128 src/CommonGLPI.php:335
 msgid "Debug"
@@ -6993,7 +6993,7 @@ msgstr "Apagar elemento"
 
 #: src/NotImportedEmail.php:78
 msgid "Delete emails"
-msgstr "Apagar emails"
+msgstr "Apagar e-mails"
 
 #: src/Config.php:3402
 #, php-format
@@ -8164,7 +8164,7 @@ msgstr "Nome de domínio do e-mail (e-mail dos utilizadores será utilizador@tml
 #: front/supplier_ticket.form.php:49 ajax/dropdownItilActors.php:124 ajax/dropdownItilActors.php:226
 #: ajax/uemailUpdate.php:88
 msgid "Email followup"
-msgstr "E-mail de acompanhamentos"
+msgstr "Acompanhamentos por e-mail"
 
 #: src/NotificationMailingSetting.php:43
 msgid "Email followups configuration"
@@ -8265,11 +8265,11 @@ msgstr "Activar acompanhamento"
 
 #: src/NotificationAjaxSetting.php:49
 msgid "Enable followups from browser"
-msgstr "Activar acompanhamentos a partir do browser"
+msgstr "Activar acompanhamentos pelo navegador"
 
 #: src/NotificationMailingSetting.php:49
 msgid "Enable followups via email"
-msgstr "Activar acompanhamentos via e-mail"
+msgstr "Activar acompanhamentos por e-mail"
 
 #: src/Config.php:1396
 msgid "Enable high contrast"
@@ -8613,7 +8613,7 @@ msgstr "Erro no envio do e-mail"
 
 #: src/NotificationAjax.php:94
 msgid "Error inserting browser notification to queue"
-msgstr "Erro a inserir a notificação do browser na fila"
+msgstr "Erro a inserir a notificação do navegador na fila"
 
 #: src/NotificationMailing.php:170
 msgid "Error inserting email to queue"
@@ -9901,7 +9901,7 @@ msgstr "Meia tarte"
 
 #: src/User.php:5909
 msgid "Handle users passwords expiration policy"
-msgstr "Lidar com a política de expiração de palavras-passe dos utilizadores"
+msgstr "Lidar com a política de expiração de palavras-passe"
 
 #: src/DeviceHardDrive.php:43
 msgid "Hard drive"
@@ -10696,7 +10696,7 @@ msgstr "Incidentes"
 
 #: src/Toolbox.php:1921
 msgid "Incoming mail folder (optional, often INBOX)"
-msgstr "Pasta de e-mails recebidos (opcional, normalmente INBOX)"
+msgstr "Pasta de e-mails recebidos"
 
 #: src/Dashboard/Provider.php:364
 msgid "Incoming tickets"
@@ -12181,7 +12181,7 @@ msgstr "Lista de itens para bloquear"
 
 #: src/MailCollector.php:2005
 msgid "List of not imported emails"
-msgstr "Lista de emails não importados"
+msgstr "Lista de e-mails não importados"
 
 #: src/Dashboard/Grid.php:1430
 msgid "List of reminders"
@@ -12773,7 +12773,7 @@ msgstr "Número máximo de itens"
 
 #: src/NotificationMailingSetting.php:200
 msgid "Max. delivery retries"
-msgstr "Max. tentativas de entrega"
+msgstr "Tentativas de entrega"
 
 #: templates/pages/assets/rack.html.twig src/CommonDCModelDropdown.php:111
 msgid "Max. power (in watts)"
@@ -12797,7 +12797,7 @@ msgstr "Tempo máximo"
 
 #: src/QueuedNotification.php:496
 msgid "Maximum emails to send at once"
-msgstr "Numero maximo de emails a enviar de uma vez"
+msgstr "Numero maximo de e-mails a enviar de uma vez"
 
 #: src/User.php:5910
 msgid "Maximum expiration notifications to send at once"
@@ -12813,7 +12813,7 @@ msgstr "Número máximo de resultados"
 
 #: src/MailCollector.php:289 src/MailCollector.php:504
 msgid "Maximum size of each file imported by the mails receiver"
-msgstr "Tamanho máximo de cada ficheiro importado pelo receptor de mails"
+msgstr "Tamanho máximo de cada ficheiro importado"
 
 #: src/LevelAgreement.php:198 src/LevelAgreement.php:394
 msgid "Maximum time"
@@ -14291,11 +14291,11 @@ msgstr "Nenhum ambiente virtualizado associado ao computador"
 
 #: src/NotificationMailingSetting.php:126 src/Entity.php:947 src/Entity.php:1988
 msgid "No-Reply address"
-msgstr "Endereço \"No-Reply\""
+msgstr "Endereço para \"Não responder\""
 
 #: src/NotificationMailingSetting.php:137 src/Entity.php:989 src/Entity.php:1995
 msgid "No-Reply name"
-msgstr "Nome \"No-Reply\""
+msgstr "Nome para \"Não responder\""
 
 #: src/Plugin.php:2483 src/Plugin.php:2502
 msgid "Non-existent function"
@@ -14456,9 +14456,9 @@ msgstr "Fila de notificação"
 #: src/NotificationEvent.php:238 src/NotificationTemplate.php:66 src/Notification.php:171 src/Notification.php:408
 msgid "Notification template"
 msgid_plural "Notification templates"
-msgstr[0] "Modelo notificação"
-msgstr[1] "Modelos notificações"
-msgstr[2] "Modelos notificações"
+msgstr[0] "Modelo de notificação"
+msgstr[1] "Modelos de notificações"
+msgstr[2] "Modelos de notificações"
 
 #: src/SavedSearch_Alert.php:233
 msgid "Notification used:"
@@ -14598,7 +14598,7 @@ msgstr "Numero de tickets duplicados"
 
 #: src/MailCollector.php:1860
 msgid "Number of emails to retrieve"
-msgstr "Numero de emails para recolha"
+msgstr "Numero de e-mails para recolha"
 
 #: src/ITILFollowup.php:773 src/NotificationTargetCommonITILObject.php:1751
 msgctxt "quantity"
@@ -15053,11 +15053,11 @@ msgstr "Opcional quando aprovado"
 
 #: src/NotificationMailingSetting.php:127
 msgid "Optionnal No-Reply address."
-msgstr "Endereço \"No-Reply\" opcional."
+msgstr "Endereço para \"Não responder\" opcional."
 
 #: src/NotificationMailingSetting.php:138
 msgid "Optionnal No-Reply name."
-msgstr "Nome \"No-Reply\" opcional."
+msgstr "Nome para \"Não responder\" opcional."
 
 #: src/NotificationMailingSetting.php:109
 msgid "Optionnal reply to address."
@@ -16077,12 +16077,12 @@ msgstr[2] "Portas"
 
 #: src/AuthLDAP.php:430
 msgid "Port (default=389)"
-msgstr "Porto LDAP (por defeito=389)"
+msgstr "Porta LDAP (por defeito=389)"
 
 #. TRANS: for mail connection system
 #: src/Toolbox.php:1932
 msgid "Port (optional)"
-msgstr "Porto (opcional)"
+msgstr "Porta"
 
 #: src/Report.php:475
 msgid "Port Number"
@@ -16613,7 +16613,7 @@ msgstr "Remove todas as entradas do log"
 
 #: src/PurgeLogs.php:73
 msgid "Purge history"
-msgstr "Remove o histórico"
+msgstr "Remover o histórico"
 
 #: src/Entity.php:3023
 msgid "Purge ticket action is disabled."
@@ -16995,7 +16995,7 @@ msgstr[2] "E-mail's recusados"
 
 #: src/MailCollector.php:278 src/MailCollector.php:537
 msgid "Refused mail archive folder (optional)"
-msgstr "Pasta de ficheiro de mails Recusados (opcional)"
+msgstr "Pasta de e-mails recusados (opcional)"
 
 #: src/User.php:2763 src/User.php:2765 src/User.php:2785 src/User.php:2787 src/User.php:3170 src/User.php:3172
 #: src/User.php:3192 src/User.php:3194 src/APIClient.php:257
@@ -17678,7 +17678,7 @@ msgstr "Resultados a mostrar na página inicial"
 
 #: src/MailCollector.php:1859
 msgid "Retrieve email (Mails receivers)"
-msgstr "Recolha de e-mail (receptores de email)"
+msgstr "Recolher e-mails automaticamente"
 
 #: src/Config.php:1429
 msgid "Reverse order (old items on bottom, recent on top)"
@@ -18119,8 +18119,8 @@ msgstr[2] "Pesquisas guardadas"
 msgid "Saved search alert"
 msgid_plural "Saved searches alerts"
 msgstr[0] "Alerta de pesquisa gravada"
-msgstr[1] "Alertas de pesquisa gravadas"
-msgstr[2] "Alertas de pesquisa gravadas"
+msgstr[1] "Alertas de pesquisas gravadas"
+msgstr[2] "Alertas de pesquisas gravadas"
 
 #: src/SavedSearch_Alert.php:324
 msgid "Saved searches alerts"
@@ -18435,7 +18435,7 @@ msgstr "Enviar uma notificação"
 
 #: src/NotificationAjaxSetting.php:114
 msgid "Send a test browser notification to you"
-msgstr "Enviar uma notificação do browser para si"
+msgstr "Enviar uma notificação do navegador para si"
 
 #: src/NotificationMailingSetting.php:268
 msgid "Send a test email to the administrator"
@@ -18443,31 +18443,31 @@ msgstr "Envia um e-mail de teste ao administrador"
 
 #: src/CartridgeItem.php:373 src/CartridgeItem.php:570
 msgid "Send alarms on cartridges"
-msgstr "Enviar alarmes sobre os cartuchos"
+msgstr "Enviar alarmes de cartuchos"
 
 #: src/ConsumableItem.php:291 src/ConsumableItem.php:427
 msgid "Send alarms on consumables"
-msgstr "Enviar alarmes nos consumiveis"
+msgstr "Enviar alarmes de consumíveis"
 
 #: src/Contract.php:1038
 msgid "Send alarms on contracts"
-msgstr "Enviar alarmes nos contratos"
+msgstr "Enviar alarmes de contratos"
 
 #: src/Certificate.php:670
 msgid "Send alarms on expired certificate"
-msgstr "Enviar alarmes no certificado expirado"
+msgstr "Enviar alarmes de certificado expirado"
 
 #: src/SoftwareLicense.php:692
 msgid "Send alarms on expired licenses"
-msgstr "Enviar alarmes nas licenças expiradas"
+msgstr "Enviar alarmes de licenças expiradas"
 
 #: src/Infocom.php:472
 msgid "Send alarms on financial and administrative information"
-msgstr "Enviar alarmes sobre informações financeiras e administrativas"
+msgstr "Enviar alarmes de informações financeiras e administrativas"
 
 #: src/MailCollector.php:1864
 msgid "Send alarms on receiver errors"
-msgstr "Enviar alarmes por erros de recepção"
+msgstr "Enviar alarmes de erros de recepção"
 
 #: src/RuleTicket.php:863 src/RuleTicket.php:871 src/RuleTicket.php:879 src/RuleTicket.php:887
 #: src/CommonITILValidation.php:952
@@ -18476,7 +18476,7 @@ msgstr "Envie um pedido de aprovação"
 
 #: src/PendingReasonCron.php:50
 msgid "Send automated follow-ups on pending tickets and solve them if necessary"
-msgstr "Envie acompanhamentos automatizados de tickets pendentes e resolva-os, se necessário"
+msgstr "Enviar acompanhamentos automatizados de tickets pendentes"
 
 #: src/Entity.php:2309
 msgid "Send certificates alarms before"
@@ -18504,7 +18504,7 @@ msgstr "Falhou envio de alerta de licenças"
 
 #: src/QueuedNotification.php:495
 msgid "Send mails in queue"
-msgstr "Mails enviados em fila de espera"
+msgstr "E-mails em fila de espera"
 
 #: src/PlanningRecall.php:379
 msgid "Send planning recalls"
@@ -21863,7 +21863,7 @@ msgstr "Usar o GLPI no modo"
 
 #: src/MailCollector.php:299
 msgid "Use Reply-To as requester (when available)"
-msgstr "Usar \"Responder\" como requerente (quando disponível)"
+msgstr "Usar \"Responder\" como requerente"
 
 #: templates/components/form/support_hours.html.twig
 msgid "Use Saturday"
@@ -21899,7 +21899,7 @@ msgstr "Usar bloqueios"
 
 #: src/MailCollector.php:294
 msgid "Use mail date, instead of collect one"
-msgstr "Usar data do mail, em vez da data de recolha"
+msgstr "Usar data do e-mail"
 
 #: src/AuthLDAP.php:571
 msgid "Use paged results"
@@ -22534,7 +22534,7 @@ msgstr "Gestor do grupo observador"
 
 #: src/NotificationMailingSetting.php:164
 msgid "Way of sending emails"
-msgstr "Método de envio de emails"
+msgstr "Método de envio"
 
 #: src/Marketplace/View.php:361
 #, php-format
