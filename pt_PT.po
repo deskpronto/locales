@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-21 14:54+0100\n"
+"PO-Revision-Date: 2022-07-21 15:20+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -5416,7 +5416,7 @@ msgstr "Data fecho"
 
 #: templates/components/search/controls.html.twig
 msgid "Close modal"
-msgstr "Fechar modal"
+msgstr "Fechar quadro"
 
 #: templates/layout/parts/saved_searches.html.twig
 msgid "Close the panel"
@@ -7122,7 +7122,7 @@ msgstr "Eliminação de um ticket"
 #: src/CronTask.php:1819
 #, php-format
 msgid "Deletion of archived log file: %s"
-msgstr "Eliminação do ficheiro arquivado de logs: %s"
+msgstr "Eliminação do ficheiro arquivado de registos: %s"
 
 #: src/Profile.php:439 src/Profile.php:467
 msgid "Deletion refused"
@@ -12408,11 +12408,11 @@ msgstr "Registo em ficheiros (SQL, e-mail, ações automáticas...)"
 
 #: src/PurgeLogs.php:42 src/Config.php:2621
 msgid "Logs purge"
-msgstr "Remoção de logs"
+msgstr "Remoção de histórico"
 
 #: src/Config.php:3225
 msgid "Logs purge configuration"
-msgstr "Configuração de remoção de logs"
+msgstr "Configuração de remoção de histórico"
 
 #: src/NotificationTargetTicket.php:648 src/NotificationTargetTicket.php:671 src/Location.php:107
 #: src/Location.php:223 src/Location.php:291 src/Entity.php:782
@@ -14733,7 +14733,7 @@ msgstr "Numero de membros da equipa"
 
 #: src/DeviceProcessor.php:75 src/DeviceProcessor.php:121 src/Item_DeviceProcessor.php:68
 msgid "Number of threads"
-msgstr "Número de threads"
+msgstr "Número de tópicos"
 
 #: src/Stat.php:1626
 msgid "Number of tickets"
@@ -16609,7 +16609,7 @@ msgstr "Remover"
 
 #: src/Config.php:3366
 msgid "Purge all log entries"
-msgstr "Remove todas as entradas do log"
+msgstr "Remove todas as entradas do registo"
 
 #: src/PurgeLogs.php:73
 msgid "Purge history"
@@ -19946,7 +19946,7 @@ msgstr "O esquema da base de dados não é consistente com a versão do GLPI ins
 #: src/Document.php:1458
 #, php-format
 msgid "The directory %s doesn't exist."
-msgstr "A directório %s não existe."
+msgstr "O directório %s não existe."
 
 #: src/System/Requirement/DirectoryWriteAccess.php:132
 #, php-format
@@ -20020,11 +20020,11 @@ msgstr ""
 #: src/System/Requirement/LogsWriteAccess.php:71
 #, php-format
 msgid "The log file could not be created in %s."
-msgstr "O ficheiro de log não pode ser criado em %s."
+msgstr "O ficheiro de registo não pode ser criado em %s."
 
 #: src/System/Requirement/LogsWriteAccess.php:68
 msgid "The log file has been created successfully."
-msgstr "O ficheiro de log foi criado com sucesso."
+msgstr "O ficheiro de registo foi criado com sucesso."
 
 #: src/User.php:653
 msgid "The login is not valid. Unable to add the user."
@@ -20305,7 +20305,7 @@ msgstr "Isto afetará apenas os plugins prontos para serem limpos"
 
 #: src/Item_DeviceProcessor.php:69
 msgid "Threads"
-msgstr "Threads"
+msgstr "Tópicos"
 
 #: src/CartridgeItem.php:437
 #, php-format
@@ -20384,9 +20384,9 @@ msgstr "Ticket solucionado"
 #: src/TicketTask.php:43
 msgid "Ticket task"
 msgid_plural "Ticket tasks"
-msgstr[0] "Tarefa de ticket"
-msgstr[1] "Tarefas de ticket"
-msgstr[2] "Tarefas de ticket"
+msgstr[0] "Tarefa do ticket"
+msgstr[1] "Tarefas do ticket"
+msgstr[2] "Tarefas do ticket"
 
 #: src/CommonITILTask.php:1648
 msgid "Ticket tasks to do"
@@ -20589,7 +20589,7 @@ msgstr "TB"
 #: templates/layout/parts/profile_selector.html.twig src/Html.php:6581
 #, php-format
 msgid "Tip: You can call this modal with %s keys combination"
-msgstr "Dica: Você pode chamar este modal com a combinação de teclas %s"
+msgstr "Dica: Você pode chamar este quadro com a combinação de teclas %s"
 
 #: templates/anonymous_helpdesk.html.twig templates/components/itilobject/selfservice.html.twig
 #: templates/components/itilobject/timeline/simple_form.html.twig src/ProjectCost.php:132 src/CommonITILCost.php:108
@@ -21074,7 +21074,7 @@ msgstr "Não foi possível atribuir e-mail a esta entidade"
 #: src/CronTask.php:1844
 #, php-format
 msgid "Unable to archive log file: %1$s. %2$s already exists. Wait till next day."
-msgstr "Não foi possível arquivar o ficheiro de logs: %1$s. %2$s já existe. Espere até ao próximo dia."
+msgstr "Não foi possível arquivar o ficheiro de registos: %1$s. %2$s já existe. Espere até ao próximo dia."
 
 #: src/Console/Security/ChangekeyCommand.php:84
 msgid "Unable to change security key!"
@@ -21157,7 +21157,7 @@ msgstr ""
 #: src/CronTask.php:1822
 #, php-format
 msgid "Unable to delete archived log file: %s"
-msgstr "Não foi possível eliminar o ficheiro arquivado de logs: %s"
+msgstr "Não foi possível eliminar o ficheiro arquivado de registo: %s"
 
 #: src/Marketplace/Controller.php:106 src/Marketplace/Controller.php:206
 msgid "Unable to download plugin archive."
@@ -23366,7 +23366,7 @@ msgstr "igual a"
 
 #: src/System/Requirement/ProtectedWebAccess.php:124
 msgid "error log file"
-msgstr "erro no ficheiro de log"
+msgstr "erro no ficheiro de registo"
 
 #: src/RuleCriteria.php:594
 msgid "exists"
@@ -23687,7 +23687,7 @@ msgstr "número de núcleos"
 
 #: src/DeviceProcessor.php:266
 msgid "processor: number of threads"
-msgstr "número de threads"
+msgstr "processador: número de threads"
 
 #: src/PDU_Rack.php:497
 msgid "racked"
@@ -23791,7 +23791,7 @@ msgstr "para a tela de login."
 
 #: src/Session.php:421 src/Session.php:426
 msgid "tree structure"
-msgstr "árvore"
+msgstr "raiz"
 
 #: src/RuleCriteria.php:622 src/Search.php:2133 src/Search.php:2273 src/Search.php:8050 src/Search.php:8161
 msgid "under"
