@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-28 08:22+0000\n"
-"PO-Revision-Date: 2022-07-21 15:20+0100\n"
+"PO-Revision-Date: 2022-07-26 11:56+0100\n"
 "Last-Translator: alexandre delaunay <delaunay.alexandre@gmail.com>, 2022\n"
 "Language-Team: Portuguese (Portugal) (https://www.transifex.com/glpi/teams/1637/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -3373,7 +3373,7 @@ msgstr[2] "Anti-vírus"
 
 #: src/ComputerAntivirus.php:288 src/ComputerAntivirus.php:366
 msgid "Antivirus version"
-msgstr "Versão d0 anti-vírus"
+msgstr "Versão do anti-vírus"
 
 #: src/Console/Migration/AppliancesPluginToCoreCommand.php:161
 msgid "Any previous appliance created in core will be lost."
@@ -3386,7 +3386,7 @@ msgstr "Status qualquer da solução"
 #: src/NetworkPortMigration.php:241
 #, php-format
 msgid "Append a correct gateway to the network %s"
-msgstr "Adicione um endereço de gateway correcto a rede %s"
+msgstr "Adicione um endereço de gateway correcto à rede %s"
 
 #: src/Appliance.php:66
 msgid "Appliance"
@@ -6001,7 +6001,7 @@ msgstr "Converta o conjunto de caracteres da base de dados de \"utf8\" para \"ut
 #: src/Console/Migration/DynamicRowFormatCommand.php:66
 msgid "Convert database tables to \"Dynamic\" row format (required for \"utf8mb4\" character support)."
 msgstr ""
-"Converta tabelas de banco de dados para o formato de linha \"Dynamic\" (necessário para suporte a caracteres "
+"Converta tabelas de bases de dados para o formato de linha \"Dynamic\" (necessário para suporte a caracteres "
 "\"utf8mb4\")."
 
 #: src/PrinterLog.php:197
@@ -9631,7 +9631,7 @@ msgstr "O gateway não está incluído nesta rede"
 #: ajax/dropdownShowIPNetwork.php:61
 #, php-format
 msgid "Gateway: %s"
-msgstr "Acesso: %s"
+msgstr "Gateway: %s"
 
 #: src/NetworkPort.php:984
 msgid "Gbps"
@@ -9940,7 +9940,7 @@ msgstr "Possui backup"
 
 #: src/RuleImportAsset.php:112
 msgid "Having the status"
-msgstr "Possuir o status"
+msgstr "A possuir o status"
 
 #: src/GLPINetwork.php:284
 #, php-format
@@ -10164,7 +10164,7 @@ msgstr "IP's de Rede: %1$s/%2$s"
 
 #: src/IPNetwork.php:144
 msgid "IP version"
-msgstr "Versão de IP"
+msgstr "Versão IP"
 
 #: src/APIClient.php:131 src/APIClient.php:139 src/APIClient.php:234
 msgid "IPv4 address range"
@@ -13504,7 +13504,7 @@ msgstr "Tempo limite de descoberta de rede"
 
 #: src/Inventory/Conf.php:726
 msgid "Network drives"
-msgstr "Drives de rede"
+msgstr "Unidades de rede"
 
 #: src/NetworkPortFiberchannel.php:380
 msgid "Network fiber socket"
